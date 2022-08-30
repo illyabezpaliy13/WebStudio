@@ -1,10 +1,17 @@
+body{
+     font-family: 'Roboto';
+}
 /* header */
-    .one-header{
+    .header-logo{
      font-family: 'Raleway';
      font-weight: 700;
      font-size: 26px;
-     line-height: 31px; 
+     line-height: 1.19;
+     letter-spacing: 0.03em; 
      color: #2196F3;
+     <span>
+     color: #212121;
+     <span>
     }  
 
     ul{ 
@@ -18,87 +25,94 @@
      color:aqua;
     }  
     
-    .link{
-    font-family: 'Roboto';
+    .header-page{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #212121;
     }
     
-    .link:hover{
+    .header-page:hover{
     color:aqua;
     }
-    
+
+    .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575
+    }
+
+    .link:hover{
+     color:aqua;
+    }
+
     /* main */
     
     .hero-title {
      color: #FFFFFF;
      background-color:#2F303A;
-     font-family: 'Roboto';
      font-weight: 900;
      font-size: 44px;
-     line-height: 60px;
+     line-height: 1.36;
+     letter-spacing: 0.06em;
      text-transform: uppercase;
     }
     
     .hero-button {
      color: #FFFFFF;
      background-color: #2196F3;;
-     font-family: 'Roboto';
      font-weight: 700;
      font-size: 16px;
-     line-height: 30px
+     line-height: 1.87;
+     letter-spacing: 0.06em;
     }
     
     .card-name{color: #212121;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
     }
     
     .card-diskription{
-     font-family: 'Roboto';
      font-weight: 400;
      font-size: 14px;
-     line-height: 24px; 
+     line-height: 1.71; 
      letter-spacing: 0.03em; 
      color: #757575;
     }
     
     .work-title{
-     font-family: 'Roboto';
      font-weight: 700;
      font-size: 36px;
-     line-height: 42px;
+     line-height: 1.16;
     letter-spacing: 0.03em;
      color: #212121;
     }
-    .card-name{
-     font-family: 'Roboto';
+    .card-name-whywe{
      font-weight: 700;
      font-size: 36px;
-     line-height: 42px;
+     line-height: 1.16;
      letter-spacing: 0.03em;
      color: #212121;
     }
     
-    .card-title{
-     font-family: 'Roboto';
+    .card-title-whywe{
      font-weight: 500;
      font-size: 16px;
-     line-height: 19px;
+     line-height: 1.18;
      letter-spacing: 0.03em;
      color: #212121; 
     }
     
-    .card-diskription{
-     font-family: 'Roboto';
+    .card-diskription-whywe{
      font-weight: 400;
      font-size: 16px;
-     line-height: 19px;
+     line-height: 1.18;
      letter-spacing: 0.03em;
      color: #757575;
     }
@@ -109,38 +123,35 @@
     background-color: #2F303A; 
     }
     
-    .studio-title{
-     font-family: 'Raleway';
+    .fotter-logo{
+     font-family: 'Ralewey';
      font-weight: 700;
      font-size: 26px;
-     line-height: 31px;
+     line-height: 1.19;
      letter-spacing: 0.03em;
      color: #2196F3;
     }
     
     .address{
-     font-family: 'Roboto';
      font-weight: 400;
      font-size: 14px;
-     line-height: 24px;
+     line-height: 1.71;
      letter-spacing: 0.03em;
      color: #FFFFFF;
     }
     
     .tel-address{
-     font-family: 'Roboto';
      font-weight: 400;
      font-size: 14px;
-     line-height: 24px; 
+     line-height: 1.71; 
      letter-spacing: 0.03em;
      color: rgba(255, 255, 255, 0.6);
     }
     
     .mail-address{
-     font-family: 'Roboto';
      font-weight: 400;
      font-size: 14px;
-     line-height: 24px; 
+     line-height: 1.71; 
      letter-spacing: 0.03em;
      color: rgba(255, 255, 255, 0.6);
     }
