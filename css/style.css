@@ -8,23 +8,28 @@ body{
      font-size: 26px;
      line-height: 1.19;
      letter-spacing: 0.03em; 
+     color: black;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .header-span{
+     font-family: 'Raleway';
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
      color: #2196F3;
-     <span>
-     color: #212121;
-     <span>
-    }  
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 
     ul{ 
      list-style:none;
     }
+
     a{
      text-decoration: none; 
     }
-    
-    .title:hover{
-     color:aqua;
-    }  
-    
+        
     .header-page{
     font-weight: 500;
     font-size: 14px;
@@ -34,7 +39,7 @@ body{
     }
     
     .header-page:hover{
-    color:aqua;
+    color:#2196F3;
     }
 
     .link{
@@ -46,7 +51,7 @@ body{
     }
 
     .link:hover{
-     color:aqua;
+     color:#2196F3;
     }
 
     /* main */
@@ -63,7 +68,7 @@ body{
     
     .hero-button {
      color: #FFFFFF;
-     background-color: #2196F3;;
+     background-color: #2196F3;
      font-weight: 700;
      font-size: 16px;
      line-height: 1.87;
@@ -139,15 +144,25 @@ body{
      font-size: 26px;
      line-height: 1.19;
      letter-spacing: 0.03em;
-     color: #2196F3;
-    }
+     color:#FFFFFF;
+     }
+
+     .footer-span{
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
+     color:#2196F3;
+     }
     
     .address{
      font-weight: 400;
      font-size: 14px;
      line-height: 1.71;
      letter-spacing: 0.03em;
-     color: #FFFFFF;
+     color:#FFFFFF;
     }
     
     .tel-address{
