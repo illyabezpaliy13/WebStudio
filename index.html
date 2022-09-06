@@ -4,32 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body class="body">
     <!-- Хедер -->
     <header>
+      <div class="container">
         <nav>
-      <a class="header-logo" href="/"><span class="header-span">Web</span>Studio</a>
-      <ul>
-        <li>
-          <a class="header-page" href="/">Студия</a>
-        </li>
-        <li>
-          <a class="header-page" href="./portfolio.html">Портфолио</a>
-        </li>
-        <li>
-          <a class="header-page" href="./contacts.html">Контакти</a>
-        </li>
-      </ul>
-    </nav>
+          <a class="header-logo" href="/">
+            <span class="header-span">Web</span>Studio</a
+          >
+          <ul class="header-pages">
+            <li class="page-iten">
+              <a class="header-page" href="/">Студия</a>
+            </li>
+            <li class="page-iten">
+              <a class="header-page" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="page-iten">
+              <a class="header-page" href="./contacts.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
 
-      <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
 
-      <a class="link" href="tel:+380961111111">+380961111111</a>
+        <a class="link" href="tel:+380961111111">+380961111111</a>
+      </div>
     </header>
 
     <!-- Основная часть Main -->
@@ -37,109 +50,137 @@
     <main>
       <!-- Герой -->
 
-      <section>
+      <section class="hero-section">
         <h1 class="hero-title">ефективні рішення для вашого бізнесу</h1>
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
 
       <!-- Чому ми? -->
 
-      <section class="whywe-section">
-        <h2 class="whywe">Чому ми?</h2>
-        <ul>
-          <li>
-            <h3 class="card-name-whywe">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <a class="card-diskription-whywe"
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem veritatis exercitationem velit magnam iure.</a
-            >
-          </li>
-          <li>
-            <h3 class="card-name-whywe">ПУНКТУАЛЬНІСТЬ</h3>
-            <a class="card-diskription-whywe"
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem veritatis exercitationem velit magnam iure.</a
-            >
-          </li>
-          <li>
-            <h3 class="card-name-whywe">ПЛАНУВАННЯ</h3>
-            <a class="card-diskription-whywe"
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem veritatis exercitationem velit magnam iure.</a
-            >
-          </li>
-          <li>
-            <h3 class="card-name-whywe">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <a class="card-diskription-whywe"
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem veritatis exercitationem velit magnam iure.</a
-            >
-          </li>
-        </ul>
+      <section class="section-whywe">
+        <div class="container">
+          <h2 class="whywe" hidden>Чому ми?</h2>
+          <ul class="whywe-list">
+            <li class="whywe-card">
+              <h3 class="card-name-whywe">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <a class="card-diskription-whywe"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatem veritatis exercitationem velit magnam iure.</a
+              >
+            </li>
+            <li class="whywe-card">
+              <h3 class="card-name-whywe">ПУНКТУАЛЬНІСТЬ</h3>
+              <a class="card-diskription-whywe"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatem veritatis exercitationem velit magnam iure.</a
+              >
+            </li>
+            <li class="whywe-card">
+              <h3 class="card-name-whywe">ПЛАНУВАННЯ</h3>
+              <a class="card-diskription-whywe"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatem veritatis exercitationem velit magnam iure.</a
+              >
+            </li>
+            <li class="whywe-card">
+              <h3 class="card-name-whywe">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <a class="card-diskription-whywe"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatem veritatis exercitationem velit magnam iure.</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Чим ми займаемося?-->
 
-      <section>
-        <h2 class="work-title">Чим ми займаемося?</h2>
-        <ul>
-          <li>
-            <img alt="picture" src="./images/img5.jpg" />
-          </li>
-          <li>
-            <img alt="picture" src="./images/img2.jpg" />
-          </li>
-          <li>
-            <img alt="picture" src="./images/box2.jpg" />
-          </li>
-        </ul>
+      <section class="work-section">
+        <div class="container">
+          <h2 class="work-title">Чим ми займаемося?</h2>
+          <ul class="work-list">
+            <li class="work-picture">
+              <img alt="picture" src="./images/box2.jpg" />
+            </li>
+            <li class="work-picture">
+              <img alt="picture" src="./images/img2.jpg" />
+            </li>
+            <li class="work-picture">
+              <img alt="picture" src="./images/box2.jpg" />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Наша команда -->
-
-      <section>
-        <h2 class="card-name">Наша команда</h2>
-        <ul>
-          <li>
-            <img alt="picture" src="./images/img.jpg" width="260" height="270" />
-            <h3 class="card-title">Ігор Дем’яненко</h3>
-            <p class="card-diskription">Product Designer</p>
-          </li>
-          <li>
-            <img alt="picture" src="./images/img(1).jpg" width="260" height="270" />
-            <h3 class="card-title">Ольга Репіна</h3>
-            <p class="card-diskription">Frontend Developer</p>
-          </li>
-          <li>
-            <img alt="picture"  src="./images/img(2).jpg" width="260" height="270" />
-            <h3 class="card-title">Микола Тарасов</h3>
-            <p class="card-diskription">Marketing</p>
-          </li>
-          <li>
-            <img alt="picture" src="./images/img(3).jpg" width="260" height="270" />
-            <h3 class="card-title">Михайло Єрмаков</h3>
-            <p class="card-diskription">UI Designer</p>
-          </li>
-        </ul>
+      <section class="team-section">
+        <div class="container">
+          <h2 class="teamcard-name">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-card">
+              <img
+                alt="picture"
+                src="./images/img.jpg"
+                width="260"
+                height="270"
+              />
+              <h3 class="card-title">Ігор Дем’яненко</h3>
+              <p class="card-diskription">Product Designer</p>
+            </li>
+            <li class="team-card">
+              <img
+                alt="picture"
+                src="./images/img(1).jpg"
+                width="260"
+                height="270"
+              />
+              <h3 class="card-title">Ольга Репіна</h3>
+              <p class="card-diskription">Frontend Developer</p>
+            </li>
+            <li class="team-card">
+              <img
+                alt="picture"
+                src="./images/img(2).jpg"
+                width="260"
+                height="270"
+              />
+              <h3 class="card-title">Микола Тарасов</h3>
+              <p class="card-diskription">Marketing</p>
+            </li>
+            <li class="team-card">
+              <img
+                alt="picture"
+                src="./images/img(3).jpg"
+                width="260"
+                height="270"
+              />
+              <h3 class="card-title">Михайло Єрмаков</h3>
+              <p class="card-diskription">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Подвал footer-->
     <footer class="footer">
-      <h2 class="fotter-logo"><span class="footer-span">Web</span>Studio</h2>
+      <div class="container">
+        <h2 class="footter-logo"><span class="footer-span">Web</span>Studio</h2>
+        <address class="footter-address">
+          
+            <a class="address" href="м.Київ,пр-тЛесіУкраїнки,26."
+              >м.Київ,пр-тЛесіУкраїнки,26.</a>
 
-      <address>
-        <p>
-          <a class="address" href="м.Київ,пр-тЛесіУкраїнки,26."
-            >м.Київ,пр-тЛесіУкраїнки,26.</a
-          >
-        </p>
-        <p>
-          <a class="tel-address" href="mailto:info@example.com ">info@example.com</a>
-        </p>
-        <p>
-          <a class="mail-address" href="tel:+380991111111">+380991111111</a>
-        </p>
-      </address>
+          <ul class="footer-list">
+            <li class="footter-telmail" >
+            <a class="telmail-address" href="mailto:info@example.com "
+              >info@example.com</a>
+            </li>
+            <li class="footter-telmail" >
+            <a class="telmail-address" href="tel:+380991111111">+380991111111</a>
+          </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

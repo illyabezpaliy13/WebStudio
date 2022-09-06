@@ -1,182 +1,298 @@
-body{
-     font-family: 'Roboto';
+body {
+  font-family: 'Roboto';
 }
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
 /* header */
-    .header-logo{
-     font-family: 'Raleway';
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.19;
-     letter-spacing: 0.03em; 
-     color: black;
-     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .header-span{
-     font-family: 'Raleway';
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.19;
-     letter-spacing: 0.03em;
-     color: #2196F3;
-     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    ul{ 
-     list-style:none;
-    }
-
-    a{
-     text-decoration: none; 
-    }
-        
-    .header-page{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    }
-    
-    .header-page:hover{
-    color:#2196F3;
-    }
-
-    .link{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575
-    }
-
-    .link:hover{
-     color:#2196F3;
-    }
-
-    /* main */
-    
-    .hero-title {
-     color: #FFFFFF;
-     background-color:#2F303A;
-     font-weight: 900;
-     font-size: 44px;
-     line-height: 1.36;
-     letter-spacing: 0.06em;
-     text-transform: uppercase;
-    }
-    
-    .hero-button {
-     color: #FFFFFF;
-     background-color: #2196F3;
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 1.87;
-     letter-spacing: 0.06em;
-    }
-    
-    .card-name{color: #212121;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    }
-    
-    .card-diskription{
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.71; 
-     letter-spacing: 0.03em; 
-     color: #757575;
-    }
-    
-    .work-title{
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.16;
-    letter-spacing: 0.03em;
-     color: #212121;
-    }
-
-.whywe{
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.16;
-     text-align: center;
-     letter-spacing: 0.03em;
-     color:#FFFFFF;  
+nav {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  outline: solid blue;
+  align-items: center;
 }
 
-    .card-name-whywe{
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 5px solid green;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.page-iten {
+  margin-right: 55px;
+}
+
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: solid greenyellow;
+  margin-right: 93px;
+}
+
+.header-pages {
+  display: flex;
+}
+
+.header-span {
+  color: #2196f3;
+}
+
+.header-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-page:hover {
+  color: #2196f3;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-left: 50px;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+/* main */
+
+/* Герой */
+
+.hero-section {
+  outline: 2px solid red;
+  padding-top: 200px;
+  background-color: #2f303a;
+  padding-bottom: 210px;
+  text-align: center;
+  width: 1600px;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  margin-top: 30px;
+}
+
+/* Чому ми */
+
+.section-whywe {
+  outline: 2px solid red;
+  display: flex;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.whywe {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.whywe-list {
+  display: flex;
+}
+.whywe-card {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.card-name-whywe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.card-diskription-whywe {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Чим ми займаємося */
+
+.work-section {
+  outline: 2px solid red;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-picture {
+  margin-right:30px;
+  margin-top: 50px;
+}
+
+/* Наша команда */
+
+.team-section {
+  outline: 2px solid red;
+}
+
+.teamcard-name{
      font-weight: 700;
      font-size: 36px;
      line-height: 1.16;
      letter-spacing: 0.03em;
      color: #212121;
-    }
-    
-    .card-title-whywe{
+     text-align: center;
+     margin-top: 94px;
+     margin-bottom: 50px;
+}
+
+.team-list{
+display: flex;
+}
+
+.team-card{
+outline: 2px solid red;     
+margin-right: 30px;
+margin-bottom: 90px;
+}
+
+.card-title{
      font-weight: 500;
      font-size: 16px;
      line-height: 1.18;
      letter-spacing: 0.03em;
      color: #212121; 
-    }
-    
-    .card-diskription-whywe{
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.18;
-     letter-spacing: 0.03em;
-     color: #757575;
-    }
-    
-    /* footer */
-    
-    footer{
-    background-color: #2F303A; 
-    }
-    
-    .fotter-logo{
-     font-family: 'Ralewey';
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.19;
-     letter-spacing: 0.03em;
-     color:#FFFFFF;
-     }
+     text-align: center;
+     margin-top: 30px; 
+     margin-bottom: 10px;
+}
 
-     .footer-span{
-     font-family: 'Raleway';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.19;
-     letter-spacing: 0.03em;
-     color:#2196F3;
-     }
-    
-    .address{
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.71;
-     letter-spacing: 0.03em;
-     color:#FFFFFF;
-    }
-    
-    .tel-address{
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.71; 
-     letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
-    }
-    
-    .mail-address{
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.71; 
-     letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
-    }
+.card-diskription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+footer {
+  outline: 2px solid red;
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footter-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.address { 
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #E5E5E5;
+}
+
+.footer-list{
+  padding-inline-start: 0;
+}
+
+.footter-telmail{
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.telmail-address{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
