@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+img{
+  display: block;
+}
+
 ul {
   margin: 0;
   padding-inline-start: 0;
@@ -40,6 +44,11 @@ nav {
   outline: 5px solid green;
 }
 
+.headerlogo-padding{
+padding-top: 24px;
+padding-bottom: 25px;
+}
+
 header .container {
   display: flex;
   align-items: center;
@@ -47,6 +56,10 @@ header .container {
 
 .page-iten {
   margin-right: 55px;
+}
+
+.page-iten:last-child{
+margin-right: 0;
 }
 
 .header-logo {
@@ -87,8 +100,20 @@ header .container {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.haederlist-address{
+display: flex;
+}
+
+.header-adress{
   margin-left: 50px;
 }
+
+.header-adress:first-child{
+margin-left: 0;
+}
+
 
 .link:hover {
   color: #2196f3;
@@ -104,7 +129,6 @@ header .container {
   background-color: #2f303a;
   padding-bottom: 210px;
   text-align: center;
-  width: 1600px;
 }
 
 .hero-title {
@@ -125,6 +149,9 @@ header .container {
   line-height: 1.87;
   letter-spacing: 0.06em;
   margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 24px;
 }
 
 /* Чому ми */
@@ -148,9 +175,14 @@ header .container {
 .whywe-list {
   display: flex;
 }
+
 .whywe-card {
   width: 270px;
   margin-right: 30px;
+}
+
+.lastwhywe-card{
+  width: 270px;
 }
 
 .card-name-whywe {
@@ -165,7 +197,7 @@ header .container {
 .card-diskription-whywe {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -187,17 +219,22 @@ header .container {
 
 .work-list {
   display: flex;
+  margin-top: 50px;
 }
 
 .work-picture {
   margin-right:30px;
-  margin-top: 50px;
+}
+
+.work-picture:last-child{
+  margin-right: 0;
 }
 
 /* Наша команда */
 
 .team-section {
   outline: 2px solid red;
+  padding-bottom: 94px;
 }
 
 .teamcard-name{
@@ -207,19 +244,26 @@ header .container {
      letter-spacing: 0.03em;
      color: #212121;
      text-align: center;
-     margin-top: 94px;
-     margin-bottom: 50px;
+     padding-top: 94px;
+     
 }
 
 .team-list{
 display: flex;
+margin-top: 50px;
 }
 
 .team-card{
 outline: 2px solid red;     
 margin-right: 30px;
-margin-bottom: 90px;
+width: 270px;
+padding-bottom: 30px;
 }
+
+.team-card:last-child{
+  margin-right: 0;
+}
+
 
 .card-title{
      font-weight: 500;
@@ -230,6 +274,7 @@ margin-bottom: 90px;
      text-align: center;
      margin-top: 30px; 
      margin-bottom: 10px;
+
 }
 
 .card-diskription {
@@ -239,8 +284,7 @@ margin-bottom: 90px;
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
-  margin-bottom: 30px;
-}
+  }
 
 /* footer */
 
@@ -258,7 +302,6 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -270,11 +313,11 @@ footer {
   color: #2196f3;
 }
 
-.address { 
+.address{ 
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #E5E5E5;
 }
@@ -295,4 +338,8 @@ color: #E5E5E5;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footter-telmail:last-child{
+  margin-bottom: 0;
 }
