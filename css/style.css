@@ -220,6 +220,7 @@ margin-left: 0;
 .work-list {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 94px;
 }
 
 .work-picture {
@@ -235,6 +236,7 @@ margin-left: 0;
 .team-section {
   outline: 2px solid red;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
 }
 
 .teamcard-name{
@@ -245,7 +247,6 @@ margin-left: 0;
      color: #212121;
      text-align: center;
      padding-top: 94px;
-     
 }
 
 .team-list{
@@ -342,4 +343,5 @@ color: #E5E5E5;
 
 .footter-telmail:last-child{
   margin-bottom: 0;
+  margin-top: 0;
 }

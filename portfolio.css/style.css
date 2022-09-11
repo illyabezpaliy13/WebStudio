@@ -1,0 +1,292 @@
+body {
+  font-family: 'Roboto';
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+/* header */
+
+header {
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  outline: solid blue;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 5px solid green;
+}
+
+.headerlogo-padding {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.page-iten {
+  margin-right: 55px;
+}
+
+.page-iten:last-child {
+  margin-right: 0;
+}
+
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: solid greenyellow;
+  margin-right: 93px;
+}
+
+.header-pages {
+  display: flex;
+}
+
+.header-span {
+  color: #2196f3;
+}
+
+.header-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-page:hover {
+  color: #2196f3;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.haederlist-address {
+  display: flex;
+}
+
+.header-adress {
+  margin-left: 50px;
+}
+
+.header-adress:first-child {
+  margin-left: 0;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+/* main */
+
+.section-button {
+  outline: 4px solid red;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 5px solid green;
+  text-align: center;
+
+}
+
+.card-button {
+
+}
+
+.main-button {
+     
+  color: #212121;
+  background-color: #f5f4fa;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 3%;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 26px;
+  text-align: center ;
+}
+
+.mainlist-button {
+  display: flex; 
+}
+
+/* list */
+
+.section-main-list {
+  outline: 4px solid blueviolet;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-list1 {
+  display: flex;
+}
+
+.card-main1 {
+  outline: 4px solid yellowgreen;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.card-main1:last-child {
+  margin-right: 0;
+}
+
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-right: 24px;
+  padding-left: 24px;
+  color: #212121;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+}
+
+.card-diskription {
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  color: #757575;
+}
+
+.main-list2 {
+  display: flex;
+}
+
+.card-main2 {
+  outline: 4px solid yellowgreen;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.card-main2:last-child {
+  margin-right: 0;
+}
+
+.main-list3 {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.card-main3 {
+  outline: 4px solid yellowgreen;
+  margin-right: 30px;
+}
+
+.card-main3:last-child {
+  margin-right: 0;
+}
+
+/* footer */
+
+footer {
+  outline: 2px solid red;
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footter-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #e5e5e5;
+}
+
+.footer-list {
+  padding-inline-start: 0;
+}
+
+.footter-telmail {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.telmail-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footter-telmail:last-child {
+  margin-bottom: 0;
+}
