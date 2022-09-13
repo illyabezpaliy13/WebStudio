@@ -29,9 +29,6 @@ ul {
 
 /* header */
 
-header {
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -127,39 +124,44 @@ header .container {
 
 .section-button {
   outline: 4px solid red;
-  padding-top: 94px;
-  padding-bottom: 50px;
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   outline: 5px solid green;
   text-align: center;
-
-}
-
-.card-button {
-
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-button {
-     
+  
+}
+
+.card-button {
   color: #212121;
   background-color: #f5f4fa;
-  font-style: Medium;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 3%;
   margin-right: 8px;
   border: none;
   border-radius: 4px;
-  padding: 6px 26px;
-  text-align: center ;
+  padding: 6px 26px
 }
 
+.card-button:hover{
+  color: #FFFFFF;
+}
+
+
+
 .mainlist-button {
-  display: flex; 
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center;
+  /* padding-right: ;
+  padding-right: ; */
 }
 
 /* list */
