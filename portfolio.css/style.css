@@ -33,7 +33,7 @@ nav {
   display: flex;
   justify-content: center;
   margin-right: auto;
-  outline: solid blue;
+ 
   align-items: center;
 }
 
@@ -43,7 +43,7 @@ nav {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 5px solid green;
+ 
 }
 
 .headerlogo-padding {
@@ -72,7 +72,6 @@ header .container {
   letter-spacing: 0.03em;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  outline: solid greenyellow;
   margin-right: 93px;
 }
 
@@ -123,51 +122,49 @@ header .container {
 /* main */
 
 .section-button {
-  outline: 4px solid red;
+
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 5px solid green;
+
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 
 .main-button {
-  
-}
 
-.card-button {
   color: #212121;
   background-color: #f5f4fa;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 3%;
-  margin-right: 8px;
+
   border: none;
   border-radius: 4px;
-  padding: 6px 26px
+  padding: 6px 26px;
 }
 
-.card-button:hover{
-  color: #FFFFFF;
+.card-button {
+
+  margin-right: 8px;
 }
 
-
+.card-button:hover {
+}
 
 .mainlist-button {
+ 
   display: flex;
   padding-top: 94px;
   padding-bottom: 50px;
-  text-align: center;
-  /* padding-right: ;
-  padding-right: ; */
+  justify-content: center;
 }
 
 /* list */
 
 .section-main-list {
-  outline: 4px solid blueviolet;
+
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -175,18 +172,16 @@ header .container {
   margin-left: auto;
 }
 
-.main-list1 {
+.main-list {
   display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding-bottom: 94px;
 }
 
-.card-main1 {
-  outline: 4px solid yellowgreen;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.card-main1:last-child {
-  margin-right: 0;
+.card-main {
+  
+  margin: 15px;
 }
 
 .card-title {
@@ -205,34 +200,6 @@ header .container {
   padding-right: 24px;
   padding-left: 24px;
   color: #757575;
-}
-
-.main-list2 {
-  display: flex;
-}
-
-.card-main2 {
-  outline: 4px solid yellowgreen;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.card-main2:last-child {
-  margin-right: 0;
-}
-
-.main-list3 {
-  display: flex;
-  padding-bottom: 94px;
-}
-
-.card-main3 {
-  outline: 4px solid yellowgreen;
-  margin-right: 30px;
-}
-
-.card-main3:last-child {
-  margin-right: 0;
 }
 
 /* footer */

@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-img{
+img {
   display: block;
 }
 
@@ -31,7 +31,6 @@ nav {
   display: flex;
   justify-content: center;
   margin-right: auto;
-  outline: solid blue;
   align-items: center;
 }
 
@@ -41,12 +40,11 @@ nav {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 5px solid green;
 }
 
-.headerlogo-padding{
-padding-top: 24px;
-padding-bottom: 25px;
+.headerlogo-padding {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 header .container {
@@ -58,8 +56,8 @@ header .container {
   margin-right: 55px;
 }
 
-.page-iten:last-child{
-margin-right: 0;
+.page-iten:last-child {
+  margin-right: 0;
 }
 
 .header-logo {
@@ -70,11 +68,10 @@ margin-right: 0;
   letter-spacing: 0.03em;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  outline: solid greenyellow;
   margin-right: 93px;
 }
 
-.header-pages {
+.header-pages{
   display: flex;
 }
 
@@ -102,18 +99,23 @@ margin-right: 0;
   color: #757575;
 }
 
-.haederlist-address{
-display: flex;
+.haederlist-address {
+  display: flex;
 }
 
-.header-adress{
+.header-adress {
   margin-left: 50px;
 }
 
-.header-adress:first-child{
-margin-left: 0;
+.header-adress:first-child {
+  margin-left: 0;
 }
 
+.header-picturemail {
+}
+
+.header-picturetel {
+}
 
 .link:hover {
   color: #2196f3;
@@ -124,7 +126,6 @@ margin-left: 0;
 /* Герой */
 
 .hero-section {
-  outline: 2px solid red;
   padding-top: 200px;
   background-color: #2f303a;
   padding-bottom: 210px;
@@ -138,7 +139,6 @@ margin-left: 0;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  
 }
 
 .hero-button {
@@ -157,7 +157,6 @@ margin-left: 0;
 /* Чому ми */
 
 .section-whywe {
-  outline: 2px solid red;
   display: flex;
   padding-bottom: 94px;
   padding-top: 94px;
@@ -181,7 +180,13 @@ margin-left: 0;
   margin-right: 30px;
 }
 
-.lastwhywe-card{
+.whywepicture {
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.lastwhywe-card {
   width: 270px;
 }
 
@@ -200,14 +205,19 @@ margin-left: 0;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  background-color:#f5f4fa;
+  justify-content: center;
+}
+
+.whywepicture :nth-child(1)::before {
+  content:"";
+  display:block;
+  width: 270px;
+  heigth: 120px;
+  background-image: url("/images/antenna1.png");
 }
 
 /* Чим ми займаємося */
-
-.work-section {
-  outline: 2px solid red;
-}
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -224,58 +234,70 @@ margin-left: 0;
 }
 
 .work-picture {
-  margin-right:30px;
+  margin-right: 30px;
 }
 
-.work-picture:last-child{
+.work-picture:last-child {
   margin-right: 0;
 }
 
 /* Наша команда */
 
 .team-section {
-  outline: 2px solid red;
   padding-bottom: 94px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
-.teamcard-name{
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.16;
-     letter-spacing: 0.03em;
-     color: #212121;
-     text-align: center;
-     padding-top: 94px;
+.teamcard-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  padding-top: 94px;
 }
 
-.team-list{
-display: flex;
-margin-top: 50px;
+.team-list {
+  display: flex;
+  margin-top: 50px;
 }
 
-.team-card{
-outline: 2px solid red;     
-margin-right: 30px;
-width: 270px;
-padding-bottom: 30px;
+.team-card {
+  background-color: #FFFFFF;
+  margin-right: 30px;
+  width: 270px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-card:last-child{
+.social-list {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.social-links {
+  margin-right: 10px;
+}
+
+.social-links:last-child {
   margin-right: 0;
 }
 
+.team-card:last-child {
+  margin-right: 0;
+}
 
-.card-title{
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.18;
-     letter-spacing: 0.03em;
-     color: #212121; 
-     text-align: center;
-     margin-top: 30px; 
-     margin-bottom: 10px;
-
+.card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .card-diskription {
@@ -285,12 +307,72 @@ padding-bottom: 30px;
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
-  }
+}
+
+.socialbuttonteam{
+  border:none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: #AFB1B8;
+  text-align: center;
+}
+
+.socialbuttonteam:hover{
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
+.socialbuttonteam-icon{
+  fill: currentColor;
+}
+
+
+/* Постійні кліенти */
+
+.title-regularclient{
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 3%;
+}
+
+.list-regylarclient{
+  display: flex;
+justify-content: center;
+}
+
+.card-regylarclient{
+  margin-right: 30px;
+  padding-bottom: 94px;
+}
+
+.button-regylarclient{
+  background-color: #FFFFFF;
+  border-color: #AFB1B8;
+  border-radius: 4px;
+  height: 90px;
+  width: 170px;
+
+}
+
+
+.svgregylarclient-icon{
+
+}
+
+.pictyre-regylarclient{
+color: #AFB1B8;
+}
+
+
 
 /* footer */
 
 footer {
-  outline: 2px solid red;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -314,25 +396,25 @@ footer {
   color: #2196f3;
 }
 
-.address{ 
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #E5E5E5;
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #e5e5e5;
 }
 
-.footer-list{
+.footer-list {
   padding-inline-start: 0;
 }
 
-.footter-telmail{
+.footter-telmail {
   margin-top: 9px;
   margin-bottom: 9px;
 }
 
-.telmail-address{
+.telmail-address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -341,7 +423,7 @@ color: #E5E5E5;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footter-telmail:last-child{
+.footter-telmail:last-child {
   margin-bottom: 0;
   margin-top: 0;
 }
