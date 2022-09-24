@@ -71,7 +71,7 @@ header .container {
   margin-right: 93px;
 }
 
-.header-pages{
+.header-pages {
   display: flex;
 }
 
@@ -97,6 +97,19 @@ header .container {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.link-icon {
+  margin-right: 10px;
+}
+
+.link-icon:hover {
+  fill: currentColor;
 }
 
 .haederlist-address {
@@ -109,16 +122,6 @@ header .container {
 
 .header-adress:first-child {
   margin-left: 0;
-}
-
-.header-picturemail {
-}
-
-.header-picturetel {
-}
-
-.link:hover {
-  color: #2196f3;
 }
 
 /* main */
@@ -177,18 +180,14 @@ header .container {
 
 .whywe-card {
   width: 270px;
-  margin-right: 30px;
 }
 
-.whywepicture {
-  background-color: #f5f4fa;
+.whywepictyre-bacground{
+  /* background-color: #F5F4FA;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 25px; */
 }
 
-.lastwhywe-card {
-  width: 270px;
-}
 
 .card-name-whywe {
   font-weight: 700;
@@ -205,17 +204,19 @@ header .container {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  background-color:#f5f4fa;
   justify-content: center;
 }
 
 .whywepicture :nth-child(1)::before {
-  content:"";
-  display:block;
+  content: '';
+  display: block;
   width: 270px;
   heigth: 120px;
-  background-image: url("/images/antenna1.png");
+  background-image: url('/images/antenna1.png');
 }
+
+
+
 
 /* Чим ми займаємося */
 .work-title {
@@ -264,29 +265,11 @@ header .container {
 }
 
 .team-card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-right: 30px;
   width: 270px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.social-list {
-  display: flex;
-  justify-content: center;
-  
-}
-
-.social-links {
-  margin-right: 10px;
-}
-
-.social-links:last-child {
-  margin-right: 0;
-}
-
-.team-card:last-child {
-  margin-right: 0;
 }
 
 .card-title {
@@ -309,29 +292,42 @@ header .container {
   text-align: center;
 }
 
-.socialbuttonteam{
-  border:none;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  padding: 0;
-  color: #AFB1B8;
-  text-align: center;
-}
-
-.socialbuttonteam:hover{
-  color: #FFFFFF;
-  background-color: #2196F3;
-}
-
-.socialbuttonteam-icon{
+.social-icon {
   fill: currentColor;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  width: 44px;
+  height: 44px;
+}
+
+.social-a-team {
+  color: #afb1b8;
+  border-radius: 50%;
+  padding: 12px 12px;
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin-left: 10px;
+}
+
+.social-a-team:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  padding: 12px 12px;
+}
+.social-icon:hover {
+  fill: #ffffff;
+}
 
 /* Постійні кліенти */
 
-.title-regularclient{
+.title-regularclient {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 50px;
@@ -340,35 +336,26 @@ header .container {
   letter-spacing: 3%;
 }
 
-.list-regylarclient{
+.list-regylarclient {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
-.card-regylarclient{
+.card-regylarclient {
   margin-right: 30px;
   padding-bottom: 94px;
+  /* border-radius: ; */
 }
 
-.button-regylarclient{
-  background-color: #FFFFFF;
-  border-color: #AFB1B8;
-  border-radius: 4px;
-  height: 90px;
-  width: 170px;
-
+/* .a-regylarclient {
 }
 
+.svgregylarclient-icon {
+} */
 
-.svgregylarclient-icon{
-
+.pictyre-regylarclient {
+  color: #afb1b8;
 }
-
-.pictyre-regylarclient{
-color: #AFB1B8;
-}
-
-
 
 /* footer */
 
