@@ -180,14 +180,23 @@ header .container {
 
 .whywe-card {
   width: 270px;
+  margin-right: 30px;
 }
 
-.whywepictyre-bacground{
-  /* background-color: #F5F4FA;
+.whywe-card {
+  width: 270px;
+}
+
+.whywepictyre-bacground {
+  background-color: #f5f4fa;
   padding-top: 25px;
-  padding-bottom: 25px; */
+  padding-bottom: 25px;
+  padding-left: 100px;
 }
 
+/* .whywepicture {
+
+} */
 
 .card-name-whywe {
   font-weight: 700;
@@ -196,6 +205,7 @@ header .container {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .card-diskription-whywe {
@@ -206,17 +216,6 @@ header .container {
   color: #757575;
   justify-content: center;
 }
-
-.whywepicture :nth-child(1)::before {
-  content: '';
-  display: block;
-  width: 270px;
-  heigth: 120px;
-  background-image: url('/images/antenna1.png');
-}
-
-
-
 
 /* Чим ми займаємося */
 .work-title {
@@ -330,10 +329,13 @@ header .container {
 .title-regularclient {
   text-align: center;
   padding-top: 94px;
-  padding-bottom: 50px;
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 3%;
+}
+
+.section-regylarclient {
+
 }
 
 .list-regylarclient {
@@ -343,18 +345,24 @@ header .container {
 
 .card-regylarclient {
   margin-right: 30px;
-  padding-bottom: 94px;
-  /* border-radius: ; */
 }
 
-/* .a-regylarclient {
+.a-regylarclient {
+  background-color: #ffffff;
+  border-color: #afb1b8;
+  border-radius: 4px;
+  height: 90px;
+  width: 170px;
+}
+
+.a-regylarclient:hover {
+  color: aqua;
 }
 
 .svgregylarclient-icon {
-} */
+}
 
 .pictyre-regylarclient {
-  color: #afb1b8;
 }
 
 /* footer */
@@ -414,3 +422,47 @@ footer {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+.titlsocialfootter{
+  color: #ffffff;
+  width: 116px;
+  height: 16px;
+  font-size: 14px;
+line-height: 16.41px;
+vertical-align: Top;
+}
+
+.socialfootter-list{
+display: flex;
+justify-content: center;
+}
+
+.socialfootter-links{
+  width: 44px;
+  height: 44px;
+}
+
+.socialfootter-a{
+  color:#ffffff;
+  border-radius: 50%;
+  padding: 12px 12px;
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin-left: 10px;
+}
+
+.socialfootter-a-icon{
+  fill: currentColor;
+  }
+
+.socialfootter-a:hover{
+  background-color: #2196F3;
+  padding: 12px 12px;
+}
+
+..,n
+
+
+
+
