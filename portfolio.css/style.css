@@ -146,7 +146,6 @@ header .container {
 }
 
 .card-button {
-
   margin-right: 8px;
 }
 
@@ -154,11 +153,14 @@ header .container {
 }
 
 .mainlist-button {
- 
   display: flex;
   padding-top: 94px;
   padding-bottom: 50px;
   justify-content: center;
+}
+.main-button:hover{
+  color: #ffffff;
+  background-color: #2196F3;
 }
 
 /* list */
@@ -181,11 +183,6 @@ header .container {
 .card-main {
   border: 1px solid #EEEEEE;
   margin: 14px;
-}
-
-.card-main::before{
-  image:url("../portfolio.images/img\(1\).jpg") ;
-
 }
 
 .card-title {
