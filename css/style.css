@@ -129,6 +129,7 @@ header .container {
 /* Герой */
 
 .hero-section {
+  width: 1600px;
   height: 600px;
   padding-top: 200px;
   background-image: linear-gradient(
@@ -137,7 +138,7 @@ header .container {
       rgba(47, 48, 58, 0.4)
     ),
     url('../images/img-herobackgraund.img.jpg');
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
   padding-bottom: 210px;
   text-align: center;
 }
@@ -194,48 +195,48 @@ header .container {
   width: 270px;
 }
 
-.whywepictyre-bacground {
-  background-color: #f5f4fa;
-  padding-bottom: 25px;
-  padding-top: 25px;
+.antenna::before{
+  display: block;
+  content: "";
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  background-image: url("../images/antenna1.png");
 }
 
-.whywepictyre-bacground2 {
-  background-color: #f5f4fa;
-  padding-bottom: 25px;
-  padding-top: 25px;
+.clock::before{
+  display: block;
+  content: "";
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  background-image: url("../images/clock1.png");
 }
 
-.whywepictyre-bacground3 {
-  background-color: #f5f4fa;
-  padding-bottom: 25px;
-  padding-top: 25px;
+.diagram::before{
+  display: block;
+  content: "";
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  background-image: url("../images/diagram1.png");
 }
 
-.whywepictyre-bacground4 {
-  background-color: #f5f4fa;
-  padding-bottom: 25px;
-  padding-top: 25px;
-}
-
-.whywepictyre-bacground::before {
-  content: url('../images/antenna1.png');
-  padding-left: 100px;
-}
-
-.whywepictyre-bacground2::before {
-  content: url('../images/clock1.png');
-  padding-left: 100px;
-}
-
-.whywepictyre-bacground3::before {
-  content: url('../images/diagram1.png');
-  padding-left: 100px;
-}
-
-.whywepictyre-bacground4::before {
-  content: url('../images/astronaut1.png');
-  padding-left: 100px;
+.astronaut::before{
+  display: block;
+  content: "";
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  background-image: url("../images/astronaut1.png");
 }
 
 .card-name-whywe {
@@ -254,8 +255,10 @@ header .container {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  justify-content: center;
+  justify-content:center;
 }
+
+
 
 /* Чим ми займаємося */
 .work-title {
@@ -355,7 +358,7 @@ header .container {
   margin-left: 10px;
 }
 
-.footter-logo:first-child {
+.footter-logo:first-child{
   margin-left: 0;
 }
 
@@ -384,33 +387,29 @@ header .container {
   padding-bottom: 94px;
 }
 
-.card-regylarclient {
+.card-regylarclient{
   margin-right: 30px;
-  border-color: #2f303a;
-  outline: 2px solid red;
+  border: 2px #2f303a ;
 }
 
-.a-regylarclient {
-}
-
-.a-regylarclient:hover {
-  color: #2196f3;
-  border-color: aqua;
-}
-
-.a-regylarclient-icon:hover {
-  border-color: aqua;
-}
-
-.pictyre-regylarclient {
-  background-color: #ffffff;
-  border-color: #afb1b8;
+.a-regylarclient{
+  border: solid 1px  #AFB1B8;
   border-radius: 4px;
   height: 90px;
   width: 170px;
+  display: block;
 }
 
-.pictyre-regylarclient {
+.a-regylarclient:hover{
+ border-color: #2196f3;
+}
+
+.a-regylarclient:hover{
+  fill:#2196f3;
+ }
+
+.a-regylarclient-icon{
+ margin: 20px 60px;
 }
 
 /* footer */
@@ -509,9 +508,11 @@ footer {
   padding: 12px 12px;
 }
 
-.footter-socialogo {
+.footter-socialogo{
+
 }
 
-.footter-socialogo-li {
-  margin-right: 50px;
+.footter-socialogo-li{
+margin-right: 50px;
 }
+
