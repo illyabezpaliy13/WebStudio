@@ -129,8 +129,16 @@ header .container {
 /* Герой */
 
 .hero-section {
+  width: 1600px;
+  height: 600px;
   padding-top: 200px;
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/img-herobackgraund.img.jpg');
+    background-repeat: no-repeat;
   padding-bottom: 210px;
   text-align: center;
 }
@@ -335,7 +343,6 @@ header .container {
 }
 
 .section-regylarclient {
-
 }
 
 .list-regylarclient {
@@ -423,27 +430,27 @@ footer {
   margin-top: 0;
 }
 
-.titlsocialfootter{
+.titlsocialfootter {
   color: #ffffff;
   width: 116px;
   height: 16px;
   font-size: 14px;
-line-height: 16.41px;
-vertical-align: Top;
+  line-height: 16.41px;
+  vertical-align: Top;
 }
 
-.socialfootter-list{
-display: flex;
-justify-content: center;
+.socialfootter-list {
+  display: flex;
+  justify-content: center;
 }
 
-.socialfootter-links{
+.socialfootter-links {
   width: 44px;
   height: 44px;
 }
 
-.socialfootter-a{
-  color:#ffffff;
+.socialfootter-a {
+  color: #ffffff;
   border-radius: 50%;
   padding: 12px 12px;
   width: 44px;
@@ -452,17 +459,11 @@ justify-content: center;
   margin-left: 10px;
 }
 
-.socialfootter-a-icon{
+.socialfootter-a-icon {
   fill: currentColor;
-  }
-
-.socialfootter-a:hover{
-  background-color: #2196F3;
-  padding: 12px 12px;
 }
 
-..,n
-
-
-
-
+.socialfootter-a:hover {
+  background-color: #2196f3;
+  padding: 12px 12px;
+}
