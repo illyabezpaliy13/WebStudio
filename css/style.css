@@ -410,6 +410,7 @@ header .container {
 
 .a-regylarclient-icon{
  margin: 20px 60px;
+ color:#AFB1B8;
 }
 
 /* footer */
@@ -470,25 +471,26 @@ footer {
   margin-top: 0;
 }
 
-.titlsocialfootter {
+ .titlsocialfootter {
   color: #ffffff;
-  width: 116px;
-  height: 16px;
-  font-size: 14px;
-  line-height: 16.41px;
+  width: 160px;
+   height: 16px;
+  margin-left: 516px;
+  margin-top: 0;
 }
 
 .socialfootter-list {
   display: flex;
-  justify-content: center;
+   justify-content: center; 
 }
-
-.socialfootter-links {
+ .socialfootter-links {
   width: 44px;
   height: 44px;
   margin-left: 10px;
-}
-
+} 
+.socialfootter-links:first-child{
+  margin-left: 0;
+} 
 .socialfootter-a {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
@@ -498,21 +500,12 @@ footer {
   height: 44px;
   display: block;
 }
-
 .socialfootter-a-icon {
   fill: currentColor;
 }
-
 .socialfootter-a:hover {
   background-color: #2196f3;
   padding: 12px 12px;
 }
 
-.footter-socialogo{
-
-}
-
-.footter-socialogo-li{
-margin-right: 50px;
-}
 
