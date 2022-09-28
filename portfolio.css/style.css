@@ -42,8 +42,7 @@ nav {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; 
-  border-bottom: 1px solid #EEEEEE;
+  margin-left: auto;
 }
 
 .headerlogo-padding {
@@ -54,6 +53,7 @@ nav {
 header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .page-iten {
@@ -95,13 +95,6 @@ header .container {
   color: #2196f3;
 }
 
-.link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
 
 .haederlist-address {
   display: flex;
@@ -115,10 +108,39 @@ header .container {
   margin-left: 0;
 }
 
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  display: flex;
+}
+
 .link:hover {
   color: #2196f3;
 }
 
+.link-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.link-icon:hover {
+  fill: currentColor;
+}
+
+.haederlist-address {
+  display: flex;
+}
+
+.header-adress {
+  margin-left: 50px;
+}
+
+.header-adress:first-child {
+  margin-left: 0;
+}
 /* main */
 
 .section-button {
@@ -206,7 +228,6 @@ header .container {
 /* footer */
 
 footer {
-  outline: 2px solid red;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -220,6 +241,7 @@ footer {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .footer-span {
@@ -228,6 +250,7 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 0;
 }
 
 .address {
@@ -237,15 +260,18 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #e5e5e5;
+  margin-right: 0;
 }
 
 .footer-list {
   padding-inline-start: 0;
+  margin-right: 0;
 }
 
 .footter-telmail {
   margin-top: 9px;
   margin-bottom: 9px;
+  margin-right: 0;
 }
 
 .telmail-address {
@@ -255,8 +281,12 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-right: 0;
 }
 
 .footter-telmail:last-child {
   margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 0;
 }
+

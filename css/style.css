@@ -106,6 +106,7 @@ header .container {
 
 .link-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .link-icon:hover {
@@ -129,7 +130,6 @@ header .container {
 /* Герой */
 
 .hero-section {
-  width: 1600px;
   height: 600px;
   padding-top: 200px;
   background-image: linear-gradient(
@@ -138,7 +138,7 @@ header .container {
       rgba(47, 48, 58, 0.4)
     ),
     url('../images/img-herobackgraund.img.jpg');
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   padding-bottom: 210px;
   text-align: center;
 }
@@ -195,48 +195,48 @@ header .container {
   width: 270px;
 }
 
-.antenna::before{
+.antenna::before {
   display: block;
-  content: "";
-  height: 70px;
-  background-size: contain;
+  content: '';
+  height: 120px;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
-  background-image: url("../images/antenna1.png");
+  background-color: #f5f4fa;
+  background-image: url('../images/antenna1.png');
 }
 
-.clock::before{
+.clock::before {
   display: block;
-  content: "";
-  height: 70px;
-  background-size: contain;
+  content: '';
+  height: 120px;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
-  background-image: url("../images/clock1.png");
+  background-color: #f5f4fa;
+  background-image: url('../images/clock1.png');
 }
 
-.diagram::before{
+.diagram::before {
   display: block;
-  content: "";
-  height: 70px;
-  background-size: contain;
+  content: '';
+  height: 120px;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
-  background-image: url("../images/diagram1.png");
+  background-color: #f5f4fa;
+  background-image: url('../images/diagram1.png');
 }
 
-.astronaut::before{
+.astronaut::before {
   display: block;
-  content: "";
-  height: 70px;
-  background-size: contain;
+  content: '';
+  height: 120px;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
-  background-image: url("../images/astronaut1.png");
+  background-color: #f5f4fa;
+  background-image: url('../images/astronaut1.png');
 }
 
 .card-name-whywe {
@@ -255,10 +255,8 @@ header .container {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  justify-content:center;
+  justify-content: center;
 }
-
-
 
 /* Чим ми займаємося */
 .work-title {
@@ -332,6 +330,7 @@ header .container {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
+  padding-bottom: 16px;
 }
 
 .social-icon {
@@ -356,10 +355,6 @@ header .container {
   height: 44px;
   display: block;
   margin-left: 10px;
-}
-
-.footter-logo:first-child{
-  margin-left: 0;
 }
 
 .social-a-team:hover {
@@ -387,30 +382,32 @@ header .container {
   padding-bottom: 94px;
 }
 
-.card-regylarclient{
+.card-regylarclient {
   margin-right: 30px;
-  border: 2px #2f303a ;
+  border: 2px #AFB1B8;
 }
 
-.a-regylarclient{
-  border: solid 1px  #AFB1B8;
+.a-regylarclient {
+  color:  #AFB1B8;
+  border: solid 1px #afb1b8;
   border-radius: 4px;
   height: 90px;
   width: 170px;
   display: block;
 }
 
-.a-regylarclient:hover{
- border-color: #2196f3;
+.a-regylarclient:hover {
+  border-color: #2196f3;
+  color: #2196f3;
 }
 
-.a-regylarclient:hover{
-  fill:#2196f3;
- }
+.a-regylarclient:hover {
+  fill: #2196f3;
+}
 
-.a-regylarclient-icon{
- margin: 20px 60px;
- color:#AFB1B8;
+.a-regylarclient-icon {
+  margin: 20px 60px;
+  fill: currentColor;
 }
 
 /* footer */
@@ -421,6 +418,24 @@ footer {
   padding-bottom: 60px;
 }
 
+.foottercontainer {
+  display: flex;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footterdivblok {
+  display: block;
+  margin-right: 70px;
+}
+
+.footterdivblok:last-child {
+  margin-right: 0;
+}
+
 .footter-logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -429,6 +444,7 @@ footer {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .footer-span {
@@ -437,6 +453,7 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 0;
 }
 
 .address {
@@ -446,15 +463,18 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #e5e5e5;
+  margin-right: 0;
 }
 
 .footer-list {
   padding-inline-start: 0;
+  margin-right: 0;
 }
 
 .footter-telmail {
   margin-top: 9px;
   margin-bottom: 9px;
+  margin-right: 0;
 }
 
 .telmail-address {
@@ -464,48 +484,53 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-right: 0;
 }
 
 .footter-telmail:last-child {
   margin-bottom: 0;
-  margin-top: 0;
 }
 
- .titlsocialfootter {
+.titlsocialfootter {
   color: #ffffff;
   width: 160px;
-   height: 16px;
-  margin-left: 516px;
+  height: 16px;
   margin-top: 0;
 }
 
-.socialfootter-list {
-  display: flex;
-   justify-content: center; 
+.socialfootter-a-icon{
+  fill: currentColor;
 }
- .socialfootter-links {
+
+.socialfootter-list{
+  display: flex;
+  justify-content: center;
+}
+
+.socialfootter-links{
   width: 44px;
-  height: 44px;
-  margin-left: 10px;
-} 
-.socialfootter-links:first-child{
-  margin-left: 0;
-} 
-.socialfootter-a {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
+  height: 44px;  
+}
+
+.socialfootter-a{
+  color:#ffffff;
   border-radius: 50%;
-  padding: 12px 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 9px 9px;
   width: 44px;
   height: 44px;
   display: block;
+  display: flex;
+justify-content: center;
 }
-.socialfootter-a-icon {
-  fill: currentColor;
-}
+
 .socialfootter-a:hover {
-  background-color: #2196f3;
-  padding: 12px 12px;
+   background-color: #2196f3;  
 }
+
+.socialfootter-a-icon:hover {
+  fill: #ffffff;
+} 
+
 
 
