@@ -20,7 +20,7 @@
   </head>
   <body class="body">
     <!-- Хедер -->
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="headerlogo-padding">
           <a class="header-logo" href="/">
@@ -66,7 +66,60 @@
 
       <section class="hero-section">
         <h1 class="hero-title">ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-button" type="button">Замовити послугу</button>
+        <button  data-open-modal class="hero-button" type="button">Замовити послугу</button>
+                
+        <div data-backdrop  class="backdrop ishiden">
+          <div class="modal">
+            <button data-close-modal class="modal-buttoncloze" type="button">
+              <svg class="icon-close"  width="18px" height="18px" >
+                <use href="./images/symbol-defs.svg#icon-close" ></use>
+              </svg>
+            </button>
+            <h1 class="title">Залишайте свій номер, ми Вам зателефонуемо<h1>
+              <ul class="textlistwork">
+            <li class="linktextwork">
+              <h2 class="text-titl">Імя</h2>
+            <input class="inputwork" type="text">
+          </li>
+          <li class="linktextwork">
+            <h2 class="text-titl">Телефон</h2>            
+            <input class="inputwork" type="text">
+          </li>
+            <li class="linktextwork">
+            <h2 class="text-titl">Пошта</h2>          
+            <input class="inputwork" type="text">  
+            </li>
+            <li class="linktextwork">
+            <h2 class="text-titl">Коментарі</h2>
+            <input class="inputwork" type="text">  
+          </li>
+          </ul>
+            <button  class="modal-button" type="submit">Надіслати</button>
+            
+          </div>
+        </div>
+    
+    
+        <script>
+          const refs = {
+            openModalBtn: document.querySelector("[data-open-modal]"),
+            closeModalBtn: document.querySelector("[data-close-modal]"),
+            backdrop: document.querySelector("[data-backdrop]"),
+          };
+    
+          refs.openModalBtn.addEventListener("click", toggleModal);
+          refs.closeModalBtn.addEventListener("click", toggleModal);
+    
+          refs.backdrop.addEventListener("click", logBackdropClick);
+    
+          function toggleModal() {
+            refs.backdrop.classList.toggle("ishiden");
+          }
+    
+          function logBackdropClick() {
+            console.log("Це клік в бекдроп");
+          }
+        </script>
       </section>
 
       <!-- Чому ми? -->
@@ -113,17 +166,21 @@
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list">
             <li class="work-picture">
-              <img alt="picture" src="./images/img5.jpg" />
+              <img  alt="picture" src="./images/img5.jpg" />
+              <h3 class="work-picturetitl" >ДЕСКТОПНІ ЗАСТОСУНКИ</h3>
             </li>
             <li class="work-picture">
               <img alt="picture" src="./images/box2.jpg" />
+              <h3 class="work-picturetitl" >МОБІЛЬНІ ЗАСТОСУНКИ</h3>
             </li>
             <li class="work-picture">
               <img alt="picture" src="./images/img2.jpg" />
+              <h3 class="work-picturetitl" >ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
             </li>
           </ul>
         </div>
       </section>
+       
 
       <!-- Наша команда -->
       <section class="team-section">
@@ -414,6 +471,12 @@
    </footer>
   </body>
  </html>
+
+ sdfgnm
+ hjkl
+ dvmd
+ \dvctrfb 
+ 
 
 
  
