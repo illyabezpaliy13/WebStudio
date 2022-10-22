@@ -51,6 +51,7 @@ header {
   top: 0;
   left: 0;
   border-bottom: 2px solid #eeeeee;
+  z-index: 5;
 }
 
 .headerlogo-padding {
@@ -135,13 +136,34 @@ header .container {
   margin-right: 54px;
 }
 
+/* .page-iten::after{
+  content: "";
+ display: block;
+ width: 100%;
+ height: 5px;
+ background-color: aqua;
+ position: absolute;
+ left: 1px;
+ bottom: 0;
+ opacity: 0;
+ transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 600ms,
+             transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ transform: scaleX(0);
+}
+
+.page-iten:hover::after{
+  opacity: 1;
+width: 100%;
+transform: scaleX(1);
+} */
+
 .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  display: flex;
+  display: flex; 
 }
 
 .link:hover {
@@ -322,6 +344,25 @@ footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  position: relative;
+}
+
+.foottercontainer {
+  display: flex;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footterdivblok {
+  display: block;
+  margin-right: 70px;
+}
+
+.footterdivblok:last-child {
+  margin-right: 0;
 }
 
 .footter-logo {
@@ -377,7 +418,84 @@ footer {
 
 .footter-telmail:last-child {
   margin-bottom: 0;
-  margin-top: 0;
-  margin-right: 0;
 }
 
+.titlsocialfootter {
+  text-align: center;
+  color: #ffffff;
+  width: 160px;
+  height: 16px;
+  margin-top: 0;
+}
+
+.socialfootter-a-icon {
+  fill: currentColor;
+}
+
+.socialfootter-list {
+  display: flex;
+  justify-content: center;
+}
+
+.socialfootter-links {
+  width: 44px;
+  height: 44px;
+}
+
+.socialfootter-a {
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 9px 9px;
+  width: 44px;
+  height: 44px;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.socialfootter-a:hover {
+  background-color: #2196f3;
+}
+
+.socialfootter-a-icon:hover {
+  fill: #ffffff;
+}
+
+.titlsubscribefootter{
+  color: #ffffff;
+ font-weight: 160px;
+  height: 16px;
+  margin-top: 0;
+}
+
+.foottertextarea{
+  color: white;
+  border-radius: 4px;
+  background: #2f303a;
+}
+
+.foottersubscribebutton{
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 65px 10px 32px;
+  margin-left: 12px;
+}
+
+.foottertelegram{ 
+  position: absolute;
+  left: 0;
+  bottom: 54%;
+  left: 86%; 
+}
+
+.foottertextbutton{
+display: flex;
+padding-top: 20px;
+}
