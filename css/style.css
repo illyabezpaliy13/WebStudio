@@ -317,22 +317,71 @@ position: relative;
 position: relative;
 }
 
+.inputwork:hover{
+ fill: currentColor;
+}
+
+/* icon-person */
+
+.input-iconperson{
+  color: #212121;
+}
+
+.input-iconperson:hover{
+  fill: currentColor;
+}
+
 .icon-person{
 position: absolute;
 left: 50px;
 top: 34px ;
+color: rgba(33, 150, 243, 1);
+}
+
+.icon-person:hover{
+  fill: currentColor;
+}
+
+/* icon-phone */
+
+.input-iconphone{
+color: #212121;
+}
+
+.input-iconphone:hover{
+fill: currentColor;
 }
 
 .icon-phone{
   position: absolute;
   top: 34px ;
   left: 50px;
+  color: rgba(33, 150, 243, 1);
+}
+
+.icon-phone:hover{
+  fill: currentColor;
+}
+
+/* icon-email */
+
+.input-iconemail{
+  color: #212121;
+}
+
+.input-iconemail:hover{
+  fill: currentColor;
 }
 
 .icon-email{
   position: absolute;
   top: 34px ;
   left: 50px;
+  color: rgba(33, 150, 243, 1);
+}
+
+.icon-email:hover{
+  fill: currentColor;
 }
 
 .modalcomments{
