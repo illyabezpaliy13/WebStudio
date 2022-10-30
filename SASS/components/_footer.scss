@@ -1,0 +1,165 @@
+
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.footter__container {
+  display: flex;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footter__div-blok {
+  display: block;
+  margin-right: 60px;
+}
+
+.footter__div-blok:last-child {
+  margin-right: 0px;
+}
+
+.footter__logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+.footter__logo-span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-right: 0;
+}
+
+.footter__address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #e5e5e5;
+  margin-right: 0;
+}
+
+.footer__list {
+  padding-inline-start: 0;
+  margin-right: 0;
+}
+
+.footter__telmail {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  margin-right: 0;
+}
+
+.footter__telmail-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 0;
+}
+
+.footter__telmail-address:last-child {
+  margin-bottom: 0;
+}
+
+.footter__social-titl {
+  text-align: center;
+  color: #ffffff;
+  width: 160px;
+  height: 16px;
+  margin-top: 0;
+}
+
+.footter__social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footter__social-iten {
+  width: 44px;
+  height: 44px;
+}
+
+.footter__social-link {
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 9px 9px;
+  width: 44px;
+  height: 44px;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.footter__social-link:hover {
+  background-color: #2196f3;
+}
+
+.footter__social-link-icon {
+  fill: currentColor;
+}
+
+.footter__social-link-icon:hover {
+  fill: #ffffff;
+}
+
+.footter__subscribe-titl{
+  color: #ffffff;
+  font-weight: 160px;
+  height: 16px;
+  margin-top: 0;
+}
+
+
+.footter__text-button {
+  display: flex;
+}
+
+
+.footter__subscribe-textarea{
+  color: white;
+  border-radius: 4px;
+  background: #2f303a;
+}
+
+.footter__subscribe-textarea:hover {
+  border-color: rgba(33, 150, 243, 1);
+}
+
+.footter__subscribe-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 65px 10px 32px;
+  margin-left: 12px;
+  position: relative;
+}
+
+.footter__telegram {
+  position: absolute;
+  top: 39%;
+  left: 86%;
+}
