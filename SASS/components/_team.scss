@@ -1,0 +1,82 @@
+.team {
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.team__name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  padding-top: 94px;
+}
+
+.team__list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.team__card {
+  background-color: #ffffff;
+  margin-right: 30px;
+  width: 270px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team__card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team__card-diskription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.team__social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team__social-iten {
+  width: 44px;
+  height: 44px;
+}
+
+.team__social-link {
+  color: #afb1b8;
+  border-radius: 50%;
+  padding: 12px 12px;
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin-left: 10px;
+}
+
+.team__social-link:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  padding: 12px 12px;
+}
+
+.team__social-icon {
+  fill: currentColor;
+}
+
+.team__social-icon:hover {
+  fill: #ffffff;
+}

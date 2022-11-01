@@ -1,0 +1,41 @@
+.regularclient__title {
+  text-align: center;
+  padding-top: 94px;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 3%;
+}
+
+.regularclient__list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.regularclient__card {
+  margin-right: 30px;
+  border: 2px #afb1b8;
+}
+
+.regularclient__link {
+  color: #afb1b8;
+  border: solid 1px #afb1b8;
+  border-radius: 4px;
+  height: 90px;
+  width: 170px;
+  display: block;
+}
+
+.regularclient__link:hover {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+
+.regularclient__link:hover {
+  fill: #2196f3;
+}
+
+.regularclient__icon {
+  margin: 20px 60px;
+  fill: currentColor;
+}
