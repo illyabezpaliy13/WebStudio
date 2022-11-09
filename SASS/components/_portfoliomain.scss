@@ -1,48 +1,42 @@
-.section-button {
-
+.button {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 
-.main-button {
-
-  color: #212121;
-  background-color: #f5f4fa;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 3%;
-
-  border: none;
-  border-radius: 4px;
-  padding: 6px 26px;
-}
-
-.card-button {
-  margin-right: 8px;
-}
-
-.card-button:hover {
-}
-
-.mainlist-button {
+.button__list {
   display: flex;
   padding-top: 94px;
   padding-bottom: 50px;
   justify-content: center;
 }
-.main-button:hover{
+
+.button__card{
+  margin-right: 8px;
+}
+
+.button__item {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 3%;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 26px;
+}
+
+.button__item:hover{
   color: #ffffff;
   background-color: #2196F3;
 }
 
 /* list */
 
-.section-main-list {
+.main__section-project{
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -50,19 +44,19 @@
   margin-left: auto;
 }
 
-.main-list {
+.main__list-project{
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
   padding-bottom: 94px;
 }
 
-.card-main {
+.main__card-project{
   border: 1px solid #EEEEEE;
   margin: 14px;
 }
 
-.product {
+.main__project{
   width: 370px;
   margin-left: auto;
   margin-right: auto;
@@ -73,7 +67,7 @@
     overflow: hidden;
 }
 
-.product-overlay{
+.main__project-overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -88,36 +82,36 @@
               background-color 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.product:hover .product-overlay{
+.main__project:hover .main__project-overlay{
 opacity: 1;
 transform: translateY(0);
 }
 
-.product-thumb{
+.main__project-thumb{
   position: relative;
 }
 
-.product-thumb:hover{
+.main__project-thumb:hover{
   opacity: 1;
 }
 
-.product-meta {
+.main__project-meta {
   padding: 15px;
 }
 
-.product-name {
+.main__project-name {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.product-actions {
+.main__project-actions {
   position: absolute;
   display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.text-item{
+.main__project-text{
   padding: 63px 24px;
   font-weight: 400;
   font-size: 18px;
@@ -126,7 +120,7 @@ transform: translateY(0);
 }
 
 
-.card-title {
+.main__project-title {
   margin-top: 20px;
   margin-bottom: 4px;
   padding-right: 24px;
@@ -137,7 +131,7 @@ transform: translateY(0);
   letter-spacing: 6%;
 }
 
-.card-diskription {
+.main__project-diskription{
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;

@@ -22,47 +22,46 @@ header .container {
   align-items: center;
 }
 
-.header-logo__padding {
+.header__nav {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.header-logo {
+.header__logo {
   font-family: 'Raleway';
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+ @extend %body-fonts;
   letter-spacing: 0.03em;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-right: 93px;
 }
 
-.header-logo__span {
+.header__logo-span {
   color: #2196f3;
 }
 
-.header-pages {
+.header__pages {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
 }
 
-.header-page__iten {
+.header__page-iten {
   margin-right: 55px;
   position: relative;
 }
 
-.header-page__iten:last-child {
+.header__page-iten:last-child {
   margin-right: 0;
 }
 
-.header-page__iten:not(:last-child) {
+.header__page-iten:not(:last-child) {
   margin-right: 54px;
 }
 
-.header-page {
+.header__page {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,7 +74,7 @@ header .container {
   border: none;
 }
 
-.header-page:hover {
+.header__page:hover {
   color: #2196f3;
 }
 
@@ -98,19 +97,19 @@ header .container {
     transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.haeder-list__address {
+.haeder_list-address{
   display: flex;
 }
 
-.haeder-list__card {
+.haeder__list-card {
   margin-left: 50px;
 }
 
-.haeder-list__card:first-child {
+.haeder__list-card :first-child {
   margin-left: 0;
 }
 
-.haeder-list__link {
+.haeder__list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -119,15 +118,15 @@ header .container {
   display: flex;
 }
 
-.haeder-list__link:hover {
+.haeder__list-link:hover {
   color: #2196f3;
 }
 
-.haeder-list__link-icon {
+.haeder__list-link-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.haeder-list__link-icon:hover {
+.haeder__list-link-icon:hover {
   fill: currentColor;
 }

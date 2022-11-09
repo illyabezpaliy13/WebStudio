@@ -14,46 +14,22 @@
 }
 
 .antenna::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+  @extend %whywe-before;
   background-image: url('../images/antenna1.png');
 }
 
 .clock::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+  @extend %whywe-before;
   background-image: url('../images/clock1.png');
 }
 
 .diagram::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+  @extend %whywe-before;
   background-image: url('../images/diagram1.png');
 }
 
 .astronaut::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+  @extend %whywe-before;
   background-image: url('../images/astronaut1.png');
 }
 
