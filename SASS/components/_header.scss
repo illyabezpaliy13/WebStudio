@@ -1,7 +1,6 @@
 nav {
   display: flex;
   justify-content: center;
-  margin-right: auto;
   align-items: center;
 }
 
@@ -14,8 +13,6 @@ header {
   border-bottom: 2px solid #eeeeee;
   z-index: 5;
 }
-
-
 
 header .container {
   display: flex;
@@ -34,7 +31,7 @@ header .container {
   letter-spacing: 0.03em;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-right: 93px;
+  margin-right: 90px;
 }
 
 .header__logo-span {
@@ -45,16 +42,22 @@ header .container {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+   }
 }
 
 .header__page-iten {
-  margin-right: 55px;
+  margin-right: 57px;
   position: relative;
 }
 
 .header__page-iten:last-child {
   margin-right: 0;
+  @media screen and (min-width: 1200px) {
+    margin-right: 300px;
+}
 }
 
 .header__page-iten:not(:last-child) {
@@ -68,7 +71,7 @@ header .container {
   letter-spacing: 0.02em;
   color: black;
   display: block;
-  padding: 10px 20px;
+  padding: 10px;
   text-decoration: none;
   color: currentColor;
   border: none;
@@ -97,12 +100,27 @@ header .container {
     transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.haeder_list-address{
-  display: flex;
+.haeder__list-address{
+  display: none;
+@media screen and (min-width: 768px) {
+ display: block;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+     }
 }
 
 .haeder__list-card {
   margin-left: 50px;
+  @media screen and (max-width: 480px) {
+    margin-left: 50px;
+     }
+  @media screen and (max-width: 768px) {
+    margin-left: 50px;
+     }
+     @media screen and (min-width: 1200px) {
+      margin-left: 10px;
+       }
 }
 
 .haeder__list-card :first-child {

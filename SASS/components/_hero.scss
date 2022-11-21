@@ -1,5 +1,5 @@
 .hero {
-  height: 600px;
+  background-position: center; 
   padding-top: 200px;
   background-image: linear-gradient(
       to top,
@@ -8,6 +8,12 @@
     ),
     url('../images/img-herobackgraund.img.jpg');
   background-repeat: no-repeat;
+@media screen and (min-width: 480px) {
+    padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  padding-bottom: 210px;
+  }
   padding-bottom: 210px;
   text-align: center;
 }

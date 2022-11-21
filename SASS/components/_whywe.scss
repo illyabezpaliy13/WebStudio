@@ -5,12 +5,36 @@
 }
 
 .whywe__list {
-  display: flex;
+  @media screen and (min-width: 786px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .whywe__card {
-  width: 270px;
-  margin-right: 30px;
+  width: 100%;
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+  }
+  @media screen and (min-width: 786px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.whywe__card:not(:last-child) {
+  margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+   margin-right: 30px;
+  }
+}
+
+.whywe__card:nth-child(2n) {
+  @media screen and (min-width: 786px) and (max-width:1200px) {
+    margin-left: 30px;
+  }
 }
 
 .antenna::before {
@@ -41,6 +65,7 @@
   color: #212121;
   margin-bottom: 10px;
   padding-top: 30px;
+  text-align: center;
 }
 
 .whywe__card-diskription {

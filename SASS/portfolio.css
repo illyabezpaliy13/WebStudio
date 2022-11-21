@@ -1,3 +1,8 @@
+.footter__logo-span, .footter__logo, .header__logo {
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 h1,
 h2,
 h3 {
@@ -40,7 +45,6 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  margin-right: auto;
   align-items: center;
 }
 
@@ -67,12 +71,10 @@ header .container {
 .header__logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-right: 93px;
+  margin-right: 90px;
 }
 
 .header__logo-span {
@@ -83,16 +85,26 @@ header .container {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__pages {
+    display: flex;
+  }
 }
 
 .header__page-iten {
-  margin-right: 55px;
+  margin-right: 57px;
   position: relative;
 }
 
 .header__page-iten:last-child {
   margin-right: 0;
+}
+@media screen and (min-width: 1200px) {
+  .header__page-iten:last-child {
+    margin-right: 300px;
+  }
 }
 
 .header__page-iten:not(:last-child) {
@@ -106,7 +118,7 @@ header .container {
   letter-spacing: 0.02em;
   color: black;
   display: block;
-  padding: 10px 20px;
+  padding: 10px;
   text-decoration: none;
   color: currentColor;
   border: none;
@@ -134,12 +146,37 @@ header .container {
   transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 600ms, transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.haeder_list-address {
-  display: flex;
+.haeder__list-address {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .haeder__list-address {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .haeder__list-address {
+    display: flex;
+  }
 }
 
 .haeder__list-card {
   margin-left: 50px;
+}
+@media screen and (max-width: 480px) {
+  .haeder__list-card {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .haeder__list-card {
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .haeder__list-card {
+    margin-left: 10px;
+  }
 }
 
 .haeder__list-card :first-child {
@@ -304,9 +341,13 @@ header .container {
 
 footer {
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
   position: relative;
+}
+@media screen and (min-width: 480px) {
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .footter__container {
@@ -330,8 +371,6 @@ footer {
 .footter__logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
@@ -340,8 +379,6 @@ footer {
 
 .footter__logo-span {
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 0;
