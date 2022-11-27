@@ -28,6 +28,11 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 body {
   font-family: "Roboto";
   padding-top: 80px;
@@ -35,11 +40,25 @@ body {
 }
 
 .container {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 nav {
@@ -206,23 +225,54 @@ header .container {
 }
 
 .button {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
+@media screen and (min-width: 480px) {
+  .button {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button {
+    width: 1200px;
+  }
+}
 
 .button__list {
-  display: flex;
   padding-top: 94px;
   padding-bottom: 50px;
   justify-content: center;
 }
+@media screen and (min-width: 480px) {
+  .button__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button__list {
+    display: flex;
+  }
+}
 
 .button__card {
-  margin-right: 8px;
+  margin: 5px;
 }
 
 .button__item {
@@ -243,23 +293,68 @@ header .container {
 
 /* list */
 .main__section-project {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+@media screen and (min-width: 480px) {
+  .main__section-project {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main__section-project {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__section-project {
+    width: 1200px;
+  }
+}
 
 .main__list-project {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
   padding-bottom: 94px;
+}
+@media screen and (min-width: 480px) {
+  .main__list-project {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main__list-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__list-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .main__card-project {
   border: 1px solid #EEEEEE;
   margin: 14px;
+}
+@media screen and (min-width: 480px) {
+  .main__card-project {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main__card-project {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__card-project {
+    width: 370px;
+  }
 }
 
 .main__project {

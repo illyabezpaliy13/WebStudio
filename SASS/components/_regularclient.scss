@@ -1,20 +1,49 @@
-.regularclient__title {
+.regularclient__title {  
   text-align: center;
   padding-top: 94px;
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 3%;
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+     text-align: center;  
+  }
 }
 
 .regularclient__list {
-  display: flex;
   justify-content: center;
   padding-bottom: 94px;
+  @media screen and (min-width: 480px)  {
+    display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;  
+  }
 }
 
-.regularclient__card {
-  margin-right: 30px;
+.regularclient__card {  
   border: 2px #afb1b8;
+  @media screen and (min-width: 480px)  {
+    padding: 5px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 10px;
+  }
 }
 
 .regularclient__link {

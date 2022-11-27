@@ -1,11 +1,10 @@
-
- footer {
-  background-color: #2f303a;  
+footer {
+  background-color: #2f303a;
   position: relative;
   @media screen and (min-width: 480px) {
     padding-top: 60px;
     padding-bottom: 60px;
-  } 
+  }
 }
 
 .footter__container {
@@ -121,20 +120,18 @@
   fill: #ffffff;
 }
 
-.footter__subscribe-titl{
+.footter__subscribe-titl {
   color: #ffffff;
   font-weight: 160px;
   height: 16px;
   margin-top: 0;
 }
 
-
 .footter__text-button {
   display: flex;
 }
 
-
-.footter__subscribe-textarea{
+.footter__subscribe-textarea {
   color: white;
   border-radius: 4px;
   background: #2f303a;

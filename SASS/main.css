@@ -38,6 +38,11 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 body {
   font-family: "Roboto";
   padding-top: 80px;
@@ -45,11 +50,25 @@ body {
 }
 
 .container {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 nav {
@@ -462,7 +481,7 @@ header .container {
   padding-top: 94px;
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .whywe__list {
     display: flex;
     flex-wrap: wrap;
@@ -477,7 +496,7 @@ header .container {
     max-width: 450px;
   }
 }
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .whywe__card {
     width: 354px;
   }
@@ -493,13 +512,13 @@ header .container {
 }
 @media screen and (min-width: 1200px) {
   .whywe__card:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 20px;
   }
 }
 
-@media screen and (min-width: 786px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .whywe__card:nth-child(2n) {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }
 
@@ -592,6 +611,7 @@ header .container {
 
 .team {
   padding-bottom: 94px;
+  padding-top: 94px;
   background-color: #f5f4fa;
 }
 
@@ -602,20 +622,50 @@ header .container {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  padding-top: 94px;
 }
 
 .team__list {
-  display: flex;
   margin-top: 50px;
+}
+@media screen and (min-width: 480px) {
+  .team__list {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__list {
+    display: flex;
+  }
 }
 
 .team__card {
   background-color: #ffffff;
-  margin-right: 30px;
-  width: 270px;
-  padding-bottom: 30px;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 480px) {
+  .team__card {
+    margin-top: 30px;
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__card {
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__card {
+    width: 270px;
+  }
 }
 
 .team__card-title {
@@ -680,16 +730,63 @@ header .container {
   line-height: 42.19px;
   letter-spacing: 3%;
 }
+@media screen and (min-width: 480px) {
+  .regularclient__title {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .regularclient__title {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .regularclient__title {
+    text-align: center;
+  }
+}
 
 .regularclient__list {
-  display: flex;
   justify-content: center;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 480px) {
+  .regularclient__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .regularclient__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .regularclient__list {
+    display: flex;
+  }
+}
 
 .regularclient__card {
-  margin-right: 30px;
   border: 2px #afb1b8;
+}
+@media screen and (min-width: 480px) {
+  .regularclient__card {
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .regularclient__card {
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .regularclient__card {
+    padding: 10px;
+  }
 }
 
 .regularclient__link {

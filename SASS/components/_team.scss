@@ -1,5 +1,6 @@
 .team {
   padding-bottom: 94px;
+  padding-top: 94px;
   background-color: #f5f4fa;
 }
 
@@ -10,20 +11,38 @@
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  padding-top: 94px;
 }
 
 .team__list {
-  display: flex;
   margin-top: 50px;
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;  
+  }
 }
 
 .team__card {
   background-color: #ffffff;
-  margin-right: 30px;
-  width: 270px;
-  padding-bottom: 30px;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  @media screen and (min-width: 480px) {
+    margin-top: 30px;
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 354px;    
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  } 
 }
 
 .team__card-title {
