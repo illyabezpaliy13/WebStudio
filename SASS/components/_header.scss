@@ -148,3 +148,21 @@ header .container {
 .haeder__list-link-icon:hover {
   fill: currentColor;
 }
+
+// бургер
+
+.burger__button{
+  display: block;
+  position: absolute; 
+  top: 22px;
+  right: 32px; 
+  background-color: transparent;  
+  border: #ffffff;
+  @media screen and (min-width: 768px) {     
+  display: none;
+}
+}
+
+.icon-burger{
+fill: black;
+}

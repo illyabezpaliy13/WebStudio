@@ -29,10 +29,12 @@
           >
           <ul class="header__pages">
             <li class="header__page-iten">
-              <a class="header__page " href="./index.html">Студия</a>
+              <a class="header__page" href="/">Студия</a>
             </li>
             <li class="header__page-iten">
-              <a class="header__page active-page" href="/">Портфолио</a>
+              <a class="header__page active-page" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="header__page-iten">
               <a class="header__page" href="./contacts.html">Контакти</a>
@@ -40,25 +42,179 @@
           </ul>
         </nav>
         <ul class="haeder__list-address">
-          <li class="haeder__list-card ">
+          <li class="haeder__list-card">
             <a class="haeder__list-link" href="mailto:info@devstudio.com"
               ><svg class="haeder__list-link-icon" width="16px" height="12px">
                 <use href="./images/symbol-defs.svg#icon-mail"></use>
-              </svg>info@devstudio.com</a
-            >
-            
+              </svg>
+              <span> info@devstudio.com </span>
+            </a>
           </li>
-          <li class="haeder__list-card ">
+          <li class="haeder__list-card">
             <a class="haeder__list-link" href="tel:+380961111111">
               <svg class="haeder__list-link-icon" width="10px" height="16px">
-              <use href="./images/symbol-defs.svg#icon-tel"></use>
-           </svg>+380961111111</a>
-            
+                <use href="./images/symbol-defs.svg#icon-tel"></use>
+              </svg>
+              <span> +380961111111 </span>
+            </a>
           </li>
         </ul>
+
+      <!-- бургер хедер -->
+      <button class="burger__button" data-open-burger type="button">
+        <svg class="icon-burger" width="28px" height="28px">
+          <use href="./images/symbol-defs.svg#burger"></use>
+        </svg>
+      </button>
+
+      <div data-backdrop-burger class="backdrop-burger ishiden">
+        <div class="burger">
+          <button data-close-burger class="burder__button-cloze" type="button">
+            <svg class="burder__icon-cloze" width="28px" height="28px">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <nav class="burger__nav">
+            <ul class="burger__pages">
+              <li class="burger__page-iten">
+                <a class="burger__page" href="/">Студия</a>
+              </li>
+              <li class="burger__page-iten">
+                <a class="burger__page" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="burger__page-iten">
+                <a class="burger__page" href="./contacts.html">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="burger__list-address">
+            <li class="burger__list-card">
+              <a class="burger__list-tel" href="tel:+380961111111"
+                >+380961111111</a
+              >
+            </li>
+            <li class="burger__list-card">
+              <a class="burger__list-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="burger__list-information">
+            <li class="burger__information-item">
+              <a
+                href="https://uk-ua.facebook.com/"
+                class="burger__information-link"
+                >Instagram</a
+              >
+            </li>
+            <li class="burger__information-item">
+              <a
+                href="https://twitter.com/?lang=ru"
+                class="burger__information-link"
+                >Twitter</a
+              >
+            </li>
+            <li class="burger__information-item">
+              <a
+                href="https://uk-ua.facebook.com/"
+                class="burger__information-link"
+                >Facebook</a
+              >
+            </li>
+            <li class="burger__information-item">
+              <a
+                href="https://ua.linkedin.com/"
+                class="burger__information-link"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <!-- бургер хедер -->
+        <!-- <button class="burger__button" data-open-burger type="button">
+          <svg class="icon-burger" width="28px" height="28px">
+            <use href="./images/symbol-defs.svg#burger"></use>
+          </svg>
+        </button>
+        
+        <div data-backdrop-burger class="backdrop-burger ishiden">
+          <div class="burger">
+            <button
+              data-close-burger
+              class="burger__button-cloze"
+              type="button"
+            >
+              <svg class="burder__icon-cloze" width="28px" height="28px">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+        
+            <nav class="burger__nav">
+              <ul class="burger__pages">
+                <li class="burger__page-iten">
+                  <a class="burger__page" href="/">Студия</a>
+                </li>
+                <li class="burger__page-iten">
+                  <a class="burger__page" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="burger__page-iten">
+                  <a class="burger__page" href="./contacts.html">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+        
+            <ul class="burger__list-address">
+              <li class="burger__list-card">
+                <a class="burger__list-tel" href="tel:+380961111111"
+                  >+380961111111</a
+                >
+              </li>
+              <li class="burger__list-card">
+                <a class="burger__list-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+        
+            <ul class="burger__list-information">
+              <li class="burger__information-item">
+                <a
+                  href="https://uk-ua.facebook.com/"
+                  class="burger__information-link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="burger__information-item">
+                <a
+                  href="https://twitter.com/?lang=ru"
+                  class="burger__information-link"
+                  >Twitter</a
+                >
+              </li>
+              <li class="burger__information-item">
+                <a
+                  href="https://uk-ua.facebook.com/"
+                  class="burger__information-link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="burger__information-item">
+                <a
+                  href="https://ua.linkedin.com/"
+                  class="burger__information-link"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div> -->
       </div>
     </header>
-
 
     <!-- Основная часть Main -->
 
@@ -68,7 +224,7 @@
       <section class="button">
         <ul class="button__list">
           <li class="button__card">
-            <button class="button__item" type="button">Усе</button>  
+            <button class="button__item" type="button">Усе</button>
           </li>
 
           <li class="button__card">
@@ -98,46 +254,49 @@
               <img src="./portfolio.images/img(1).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Невозможно одним движением отпустить прошлое. Нужно время, как бы банально это ни звучало.                           
+                  Невозможно одним движением отпустить прошлое. Нужно время, как
+                  бы банально это ни звучало.
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Технокряк</h4>
-            <p class="main__project-diskription">Веб-сайт</p>
-        </div>
-      </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Технокряк</h4>
+                <p class="main__project-diskription">Веб-сайт</p>
+              </div>
+            </article>
           </li>
-
 
           <li class="main__card-project">
             <article class="main__project">
               <img src="./portfolio.images/img(2).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Часы, которые стоят тридцать долларов и часы, которые стоят триста долларов, показывают одно и то же время.                          
+                  Часы, которые стоят тридцать долларов и часы, которые стоят
+                  триста долларов, показывают одно и то же время.
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Постер New Orlean vs Golden Star</h4>
-            <p class="main__project-diskription">Дизайн</p>
-        </div>
-      </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">
+                  Постер New Orlean vs Golden Star
+                </h4>
+                <p class="main__project-diskription">Дизайн</p>
+              </div>
+            </article>
           </li>
-
 
           <li class="main__card-project">
             <article class="main__project">
               <img src="./portfolio.images/img(3).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Люди, которые не могут найти время для отдыха, рано или поздно будут вынуждены найти время для болезни.                          
+                  Люди, которые не могут найти время для отдыха, рано или поздно
+                  будут вынуждены найти время для болезни.
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Ресторан Seafood</h4>
-            <p class="main__project-diskription">Застосунок</p>
-        </div>
-      </article> 
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Ресторан Seafood</h4>
+                <p class="main__project-diskription">Застосунок</p>
+              </div>
+            </article>
           </li>
 
           <li class="main__card-project">
@@ -145,94 +304,95 @@
               <img src="./portfolio.images/img(4).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Если вам кажется, что все понятно, скорее всего, вам только кажется.                           
+                  Если вам кажется, что все понятно, скорее всего, вам только
+                  кажется.
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Проект Prime</h4>
-            <p class="main__project-diskription">Маркетинг</p>
-        </div>
-      </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Проект Prime</h4>
+                <p class="main__project-diskription">Маркетинг</p>
+              </div>
+            </article>
           </li>
-
 
           <li class="main__card-project">
             <article class="main__project">
               <img src="./portfolio.images/img(5).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Жизнь не в том, чтобы жить, а в том, чтобы чувствовать, что живешь.                          
+                  Жизнь не в том, чтобы жить, а в том, чтобы чувствовать, что
+                  живешь.
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Проект Boxes</h4>
-            <p class="main__project-diskription">Застосунок</p>
-        </div>
-      </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Проект Boxes</h4>
+                <p class="main__project-diskription">Застосунок</p>
+              </div>
+            </article>
           </li>
 
-          
           <li class="main__card-project">
             <article class="main__project">
               <img src="./portfolio.images/img(6).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Когда мы правы, мы часто сомневаемся, но ошибаемся мы обычно с полной уверенностью.
-                </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Inspiration has no Borders</h4>
-            <p class="main__project-diskription">Веб-сайт</p>
-        </div>
-      </article>
-
-
+                  Когда мы правы, мы часто сомневаемся, но ошибаемся мы обычно с
+                  полной уверенностью.
+                </h2>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Inspiration has no Borders</h4>
+                <p class="main__project-diskription">Веб-сайт</p>
+              </div>
+            </article>
           </li>
           <li class="main__card-project">
             <article class="main__project">
               <img src="./portfolio.images/img(7).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Технокрик це сучасний майданчик поширення коронавірусу. 
-                  Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.                           
+                  Технокрик це сучасний майданчик поширення коронавірусу.
+                  Компанії використовують цю платформу для цифрового шпигунства
+                  та атак на захищені сервери конкурентів.
                 </h2>
-          </div>      
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Видавництво Limited Edition</h4>
-            <p class="main__project-diskription">Дизайн</p>
-        </div>
-      </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Видавництво Limited Edition</h4>
+                <p class="main__project-diskription">Дизайн</p>
+              </div>
+            </article>
           </li>
-
 
           <li class="main__card-project">
             <article class="main__project">
-              <img src="./portfolio.images/img(8).jpg" alt="картинка" />            
+              <img src="./portfolio.images/img(8).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Оставаться наедине со своими мыслями — весьма опасное занятие... но очень полезное!                           
+                  Оставаться наедине со своими мыслями — весьма опасное
+                  занятие... но очень полезное!
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Проект LAB</h4>
-            <p class="main__project-diskription">Маркетинг</p>
-        </div>
-      </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Проект LAB</h4>
+                <p class="main__project-diskription">Маркетинг</p>
+              </div>
+            </article>
           </li>
-
 
           <li class="main__card-project">
             <article class="main__project">
               <img src="./portfolio.images/img(9).jpg" alt="картинка" />
               <div class="main__project-overlay">
                 <h2 class="main__project-text">
-                  Проблема этого мира в том, что глупцы и фанатики слишком уверены в себе, а умные люди полны сомнений.                           
+                  Проблема этого мира в том, что глупцы и фанатики слишком
+                  уверены в себе, а умные люди полны сомнений.
                 </h2>
-          </div>
-          <div class="main__project-meta">
-            <h4 class="main__project-title">Growing Business</h4>
-            <p class="main__project-diskription">Застосунок</p>
-          </div>
-          </article>
+              </div>
+              <div class="main__project-meta">
+                <h4 class="main__project-title">Growing Business</h4>
+                <p class="main__project-diskription">Застосунок</p>
+              </div>
+            </article>
           </li>
         </ul>
       </section>
@@ -309,5 +469,9 @@
     </div>
     </div>
    </footer> -->
+
+    <script src="./js/burger.js"></script>
   </body>
 </html>
+
+
