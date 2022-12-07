@@ -15,7 +15,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -284,20 +285,65 @@ header .container {
 
 .burger__button-cloze {
   position: absolute;
-  right: 2%;
+  right: 5%;
   top: 2%;
+  color: #212121;
+  border: none;
+  background-color: #ffffff;
   width: 30px;
   height: 30px;
-  border: none;
 }
 
-.burder__icon-cloze {
-  fill: #212121;
+.burger__icon-cloze {
+  color: #212121;
 }
 
-.burger__nav {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.burger__pages {
+  padding-top: 48px;
+  padding-left: 40px;
+  padding-bottom: 302px;
+}
+
+.burger__page-iten {
+  margin-bottom: 32px;
+}
+
+.burger__page {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.burger__list-address {
+  display: block;
+}
+
+.burger__list-card {
+  display: block;
+  margin-bottom: 32px;
+  margin-left: 40px;
+}
+
+.burger__list-card:last-child {
+  margin-bottom: 0;
+}
+
+.burger__list-tel {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39.84px;
+  letter-spacing: 2%;
+  color: #2196f3;
+}
+
+.burger__list-mail {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.13px;
+  letter-spacing: 2%;
+  color: #757575;
 }
 
 .burger__list-information {
@@ -315,46 +361,7 @@ header .container {
 }
 
 .burger__information-link {
-  color: #2196F3;
-}
-
-.burger__page {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 46.88px;
-  letter-spacing: 0.02em;
-  color: black;
-}
-
-.burger__list-address {
-  display: block;
-  margin-top: 306px;
-}
-
-.burger__list-card {
-  display: block;
-  margin-bottom: 32px;
-  margin-left: 40px;
-}
-
-.burger__list-card:last-child {
-  margin-bottom: 0;
-}
-
-.burger__list-tel {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 39.84px;
-  letter-spacing: 2%;
-  color: #2196F3;
-}
-
-.burger__list-mail {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28.13px;
-  letter-spacing: 2%;
-  color: #757575;
+  color: #2196f3;
 }
 
 .hero {
@@ -935,33 +942,47 @@ header .container {
   fill: currentColor;
 }
 
-footer {
-  background-color: #2f303a;
-  position: relative;
+@media screen and (min-width: 768px) {
+  .fotter__list-blok {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-@media screen and (min-width: 480px) {
-  footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+@media screen and (min-width: 1200px) {
+  .fotter__list-blok {
+    display: flex;
+    margin: 0;
   }
 }
 
-.footter__container {
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footter .container {
   display: flex;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.footter__div-blok {
-  display: block;
-  margin-right: 60px;
+@media screen and (min-width: 480px) {
+  .footter__div-blok1 {
+    margin-left: 163px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
-
-.footter__div-blok:last-child {
-  margin-right: 0px;
+@media screen and (min-width: 768px) {
+  .footter__div-blok1 {
+    margin-right: 165px;
+    margin-top: 0;
+    margin-left: 76px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footter__div-blok1 {
+    margin-left: 100px;
+  }
 }
 
 .footter__logo {
@@ -990,45 +1011,51 @@ footer {
   margin-right: 0;
 }
 
-.footer__list {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-  margin-right: 0;
-}
-
 .footter__telmail {
   margin-top: 9px;
   margin-bottom: 9px;
-  margin-right: 0;
 }
 
 .footter__telmail-address {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-right: 0;
-}
-
-.footter__telmail-address:last-child {
-  margin-bottom: 0;
 }
 
 .footter__social-titl {
   text-align: center;
   color: #ffffff;
-  width: 160px;
-  height: 16px;
-  margin-top: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 480px) {
+  .footter__social-titl {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footter__social-titl {
+    margin-left: 0;
+  }
 }
 
 .footter__social-list {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
-
+@media screen and (min-width: 480px) {
+  .footter__social-list {
+    margin-bottom: 60px;
+    margin-left: 0;
+  }
+}
 .footter__social-iten {
   width: 44px;
   height: 44px;
@@ -1038,10 +1065,9 @@ footer {
   color: #ffffff;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 9px 9px;
   width: 44px;
   height: 44px;
-  display: block;
+  padding: 11px;
   display: flex;
   justify-content: center;
 }
@@ -1059,20 +1085,51 @@ footer {
 }
 
 .footter__subscribe-titl {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #ffffff;
-  font-weight: 160px;
-  height: 16px;
-  margin-top: 0;
 }
-
-.footter__text-button {
-  display: flex;
+@media screen and (min-width: 480px) {
+  .footter__subscribe-titl {
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footter__subscribe-titl {
+    margin-left: 288px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footter__subscribe-titl {
+    margin-left: 93px;
+  }
 }
 
 .footter__subscribe-textarea {
   color: white;
   border-radius: 4px;
   background: #2f303a;
+  position: relative;
+}
+@media screen and (min-width: 480px) {
+  .footter__subscribe-textarea {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footter__subscribe-textarea {
+    margin-left: 166px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footter__subscribe-textarea {
+    margin-left: 93px;
+  }
 }
 
 .footter__subscribe-textarea:hover {
@@ -1089,29 +1146,26 @@ footer {
   border: none;
   border-radius: 4px;
   padding: 10px 65px 10px 32px;
-  margin-left: 12px;
   position: relative;
+}
+@media screen and (min-width: 480px) {
+  .footter__subscribe-button {
+    margin-left: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footter__subscribe-button {
+    margin-left: 291px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footter__subscribe-button {
+    margin-left: 93px;
+  }
 }
 
 .footter__telegram {
   position: absolute;
   top: 39%;
   left: 86%;
-}
-
-@media screen and (min-width: 480px) {
-  .footter__div-list {
-    display: block;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footter__div-list {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footter__div-item {
-    margin: 14px;
-  }
 }/*# sourceMappingURL=main.css.map */

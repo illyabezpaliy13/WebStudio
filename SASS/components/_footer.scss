@@ -1,29 +1,38 @@
-
- footer {
-  background-color: #2f303a;  
-  position: relative;
-  @media screen and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  } 
+.fotter__list-blok{
+  @media screen and (min-width: 768px) {
+    display: flex;
+  flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1200px){
+    display: flex;
+    margin: 0;
+  }
 }
 
-.footter__container {
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footter .container {
   display: flex;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.footter__div-blok {
-  display: block;
-  margin-right: 60px;
-}
-
-.footter__div-blok:last-child {
-  margin-right: 0px;
+.footter__div-blok1{
+  @media screen and (min-width: 480px) {
+    margin-left: 163px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+    margin-top: 0;
+    margin-left: 76px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 100px;
+  }
 }
 
 .footter__logo {
@@ -54,42 +63,50 @@
   margin-right: 0;
 }
 
-.footer__list {
-  padding-inline-start: 0;
-  margin-right: 0;
-}
-
 .footter__telmail {
   margin-top: 9px;
   margin-bottom: 9px;
-  margin-right: 0;
 }
 
 .footter__telmail-address {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-right: 0;
-}
-
-.footter__telmail-address:last-child {
-  margin-bottom: 0;
 }
 
 .footter__social-titl {
   text-align: center;
   color: #ffffff;
-  width: 160px;
-  height: 16px;
-  margin-top: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  @media screen and (min-width: 480px){
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px){
+    
+  }
+  @media screen and (min-width:1200px) {
+    margin-left: 0;
+  }
 }
 
 .footter__social-list {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  @media screen and (min-width: 480px){
+    margin-bottom: 60px;
+    margin-left: 0;
+  }
+  @media screen and (min-width: 768px){
+    
+  }
 }
 
 .footter__social-iten {
@@ -100,11 +117,10 @@
 .footter__social-link {
   color: #ffffff;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 9px 9px;
+  background-color: rgba(255, 255, 255, 0.1);  
   width: 44px;
   height: 44px;
-  display: block;
+  padding: 11px;
   display: flex;
   justify-content: center;
 }
@@ -121,23 +137,40 @@
   fill: #ffffff;
 }
 
-.footter__subscribe-titl{
+.footter__subscribe-titl {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   color: #ffffff;
-  font-weight: 160px;
-  height: 16px;
-  margin-top: 0;
+  @media screen and (min-width: 480px){
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 288px;
+  }
+  @media screen and (min-width: 1200px){
+    margin-left: 93px;
+  }
 }
 
-
-.footter__text-button {
-  display: flex;
-}
-
-
-.footter__subscribe-textarea{
+.footter__subscribe-textarea {
   color: white;
   border-radius: 4px;
   background: #2f303a;
+  position: relative;
+  @media screen and (min-width: 480px){
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 166px;
+  }
+  @media screen and (min-width: 1200px){
+    margin-left: 93px;
+  }
 }
 
 .footter__subscribe-textarea:hover {
@@ -154,34 +187,20 @@
   border: none;
   border-radius: 4px;
   padding: 10px 65px 10px 32px;
-  margin-left: 12px;
   position: relative;
+  @media screen and (min-width: 480px){
+    margin-left: 120px;
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 291px;
+  }
+  @media screen and (min-width: 1200px){
+    margin-left: 93px;
+  }
 }
 
 .footter__telegram {
   position: absolute;
   top: 39%;
   left: 86%;
-}
-
-.footter__div-list{
-  @media screen and (min-width: 480px)  {
-    display: block;
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
-    display: flex;
-  }
-}
-
-.footter__div-item{
-  @media screen and (min-width: 480px)  {
-  }
-  @media screen and (min-width: 768px) {    
-  
-  }
-  @media screen and (min-width: 1200px) {   
-    margin: 14px; 
-  }
 }
