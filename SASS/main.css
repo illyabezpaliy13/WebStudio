@@ -479,10 +479,14 @@ header .container {
   position: relative;
   position: relative;
   position: relative;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
-.inputwork:hover {
-  fill: currentColor;
+.modal-list__input:hover {
+  border-color: #2196f3;
 }
 
 /* icon-person */
@@ -497,7 +501,7 @@ header .container {
 .modal-list__icon-person {
   position: absolute;
   left: 50px;
-  top: 34px;
+  top: 30px;
   color: rgb(33, 150, 243);
 }
 
@@ -516,7 +520,7 @@ header .container {
 
 .modal-list__icon-phone {
   position: absolute;
-  top: 34px;
+  top: 30px;
   left: 50px;
   color: rgb(33, 150, 243);
 }
@@ -536,7 +540,7 @@ header .container {
 
 .modal-list__icon-email {
   position: absolute;
-  top: 34px;
+  top: 30px;
   left: 50px;
   color: rgb(33, 150, 243);
 }
@@ -561,6 +565,10 @@ header .container {
 
 .modal__textarea {
   padding-right: 70px;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .modal__section-chekmark {

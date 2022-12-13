@@ -80,9 +80,6 @@
   border: solid 1px rgba(0, 0, 0, 0.1);
 }
 
-// .modal__icon-close {
-// }
-
 .modal__icon-close:hover {
   color: #2196f3;
 }
@@ -117,10 +114,14 @@
   position: relative;
   position: relative;
   position: relative;
+  width: 448px;
+  height: 40px;  
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
-.inputwork:hover {
-  fill: currentColor;
+.modal-list__input:hover {
+  border-color: #2196f3;
 }
 
 /* icon-person */
@@ -136,7 +137,7 @@
 .modal-list__icon-person {
   position: absolute;
   left: 50px;
-  top: 34px;
+  top: 30px;
   color: rgba(33, 150, 243, 1);
 }
 
@@ -156,7 +157,7 @@
 
 .modal-list__icon-phone {
   position: absolute;
-  top: 34px;
+  top: 30px;
   left: 50px;
   color: rgba(33, 150, 243, 1);
 }
@@ -177,7 +178,7 @@
 
 .modal-list__icon-email {
   position: absolute;
-  top: 34px;
+  top: 30px;
   left: 50px;
   color: rgba(33, 150, 243, 1);
 }
@@ -193,7 +194,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  display: block;
+  display: block;  
 }
 
 .modal__comments {
@@ -202,6 +203,10 @@
 
 .modal__textarea {
   padding-right: 70px;
+  width: 448px;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
 }
 
 .modal__section-chekmark {
