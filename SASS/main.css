@@ -863,16 +863,19 @@ header .container {
 @media screen and (min-width: 480px) {
   .regularclient__title {
     text-align: center;
+    padding-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
   .regularclient__title {
     text-align: center;
+    padding-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .regularclient__title {
     text-align: center;
+    padding-bottom: 50px;
   }
 }
 
@@ -950,7 +953,6 @@ header .container {
 }
 @media screen and (min-width: 1200px) {
   .fotter__list-blok {
-    display: flex;
     margin: 0;
   }
 }
@@ -968,7 +970,6 @@ footer {
 @media screen and (min-width: 480px) {
   .footter__div-blok1 {
     margin-left: 163px;
-    margin-top: 60px;
     margin-bottom: 60px;
   }
 }
@@ -981,7 +982,9 @@ footer {
 }
 @media screen and (min-width: 1200px) {
   .footter__div-blok1 {
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
   }
 }
 
@@ -1009,6 +1012,16 @@ footer {
   letter-spacing: 0.03em;
   color: #e5e5e5;
   margin-right: 0;
+}
+@media screen and (min-width: 480px) {
+  .footter__address-link {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footter__address-link {
+    text-align: center;
+  }
 }
 
 .footter__telmail {
@@ -1056,6 +1069,12 @@ footer {
     margin-left: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footter__social-list {
+    margin-right: 30px;
+  }
+}
+
 .footter__social-iten {
   width: 44px;
   height: 44px;
@@ -1094,22 +1113,12 @@ footer {
 }
 @media screen and (min-width: 480px) {
   .footter__subscribe-titl {
-    margin-left: 120px;
     margin-bottom: 20px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footter__subscribe-titl {
-    margin-left: 288px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footter__subscribe-titl {
-    margin-left: 93px;
   }
 }
 
 .footter__subscribe-textarea {
+  display: block;
   color: white;
   border-radius: 4px;
   background: #2f303a;
@@ -1117,18 +1126,12 @@ footer {
 }
 @media screen and (min-width: 480px) {
   .footter__subscribe-textarea {
-    margin-left: 20px;
     margin-bottom: 20px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footter__subscribe-textarea {
-    margin-left: 166px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footter__subscribe-textarea {
-    margin-left: 93px;
+    margin-bottom: 0;
   }
 }
 
@@ -1148,24 +1151,28 @@ footer {
   padding: 10px 65px 10px 32px;
   position: relative;
 }
-@media screen and (min-width: 480px) {
-  .footter__subscribe-button {
-    margin-left: 120px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footter__subscribe-button {
-    margin-left: 291px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footter__subscribe-button {
-    margin-left: 93px;
+    margin-left: 10px;
   }
 }
 
 .footter__telegram {
   position: absolute;
-  top: 39%;
-  left: 86%;
+  top: 30%;
+  left: 80%;
+}
+
+.footter__form {
+  text-align: center;
+}
+
+.footter__wrap {
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footter__wrap {
+    display: flex;
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */
