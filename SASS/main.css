@@ -104,7 +104,7 @@ header .container {
   letter-spacing: 0.03em;
   color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-right: 90px;
+  margin-right: 60px;
 }
 
 .header__logo-span {
@@ -127,6 +127,11 @@ header .container {
   margin-right: 57px;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .header__page-iten {
+    margin-right: 5px;
+  }
+}
 
 .header__page-iten:last-child {
   margin-right: 0;
@@ -148,10 +153,15 @@ header .container {
   letter-spacing: 0.02em;
   color: black;
   display: block;
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   color: currentColor;
   border: none;
+}
+@media screen and (min-width: 758px) {
+  .header__page {
+    margin-right: 0px;
+  }
 }
 
 .header__page:hover {
@@ -172,7 +182,7 @@ header .container {
   position: absolute;
   left: 1px;
   bottom: 0;
-  top: 58px;
+  top: 50px;
   transition: opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 600ms, transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -579,7 +589,7 @@ header .container {
 
 .modal__checkbox {
   position: absolute;
-  top: 39%;
+  top: 54%;
   left: 10%;
 }
 
@@ -774,16 +784,18 @@ header .container {
   .team__list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    margin: -5px;
   }
 }
 @media screen and (min-width: 1200px) {
   .team__list {
     display: flex;
+    margin-left: 13px;
   }
 }
 
 .team__card {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
@@ -1122,6 +1134,12 @@ footer {
 @media screen and (min-width: 480px) {
   .footter__subscribe-titl {
     margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footter__subscribe-titl {
+    margin-bottom: 20px;
+    margin-left: 0;
   }
 }
 
