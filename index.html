@@ -142,7 +142,7 @@
         </button>
 
         <div data-backdrop class="backdrop ishiden">
-          <div class="modal">
+          <form class="modal">
             <button data-close-modal class="modal__button-cloze" type="button">
               <svg class="modal__icon-close" width="18px" height="18px">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
@@ -154,7 +154,7 @@
 
             <ul class="modal-list">
               <li class="modal-list__link">
-                <label class="modal-list__titl">Імя</label>
+                <label required class="modal-list__titl">Імя</label>
                 <br />
                 <div class="modal-list__iconperson">
                   <input class="modal-list__input" type="text" width="40px" height="40px" />
@@ -172,7 +172,7 @@
                 <label class="modal-list__titl">Телефон</label>
                 <br />
                 <div class="modal-list__iconphone">
-                  <input class="modal-list__input" type="text" />
+                  <input required class="modal-list__input" type="text" />
                   <svg
                     class="modal-list__icon-phone"
                     width="18px"
@@ -187,7 +187,7 @@
                 <label for="mail" class="modal-list__titl">Пошта</label>
                 <br />
                 <div class="modal-list__iconemail">
-                  <input id="mail" class="modal-list__input" type="text" />
+                  <input required id="mail" class="modal-list__input" type="text" />
                   <svg
                     class="modal-list__icon-email"
                     width="18px"
@@ -218,7 +218,7 @@
               >
             </div>
             <button class="modal__button" type="submit">Надіслати</button>
-          </div>
+          </form>
         </div>
       </section>
 
@@ -495,9 +495,7 @@
     <!--Подвал footer-->
 
     <footer class="footer">
-      <div class="container">
-        <ul class="fotter__list-blok">
-          <li>
+      <div class="container">          
             <div class="footter__div-blok1">
               <h2 class="footter__logo">
                 <span class="footter__logo-span">Web</span>Studio
@@ -524,9 +522,7 @@
                 </ul>
               </address>
             </div>
-          </li>
 
-          <li>
             <div class="footter__div-blok">
               <h4 class="footter__social-titl">Приєднуйтесь</h4>
               <ul class="footter__social-list">
@@ -576,9 +572,7 @@
                 </li>
               </ul>
             </div>
-          </li>
-
-          <li>
+          
             <div class="footter__form">
               <h4 class="footter__subscribe-titl">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h4>
               <div class="footter__wrap">
@@ -596,9 +590,7 @@
                     ></use></svg>Підписатись</button>
               </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </div>
     </footer>
 
     <script src="./js/burger.js"></script>
