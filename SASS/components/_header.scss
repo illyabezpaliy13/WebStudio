@@ -6,12 +6,21 @@ nav {
 
 header {
   width: 100%;
-  background-color: #ffffff;
+  // background-color: #ffffff;
+  background-image: url('../../images/55GL.gif');
   position: fixed;
   top: 0;
   left: 0;
   border-bottom: 2px solid #eeeeee;
   z-index: 5;
+}
+
+.header__cat{
+  display: block;
+  @media screen and (max-width: 1200px) {
+    display: none;
+}
+
 }
 
 header .container {

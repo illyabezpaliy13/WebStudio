@@ -48,6 +48,7 @@ body {
   font-family: "Roboto";
   padding-top: 80px;
   color: #212121;
+  background-image: url("../../images/55GL.gif");
 }
 
 .container {
@@ -80,12 +81,21 @@ nav {
 
 header {
   width: 100%;
-  background-color: #ffffff;
+  background-image: url("../../images/55GL.gif");
   position: fixed;
   top: 0;
   left: 0;
   border-bottom: 2px solid #eeeeee;
   z-index: 5;
+}
+
+.header__cat {
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .header__cat {
+    display: none;
+  }
 }
 
 header .container {
@@ -377,7 +387,7 @@ header .container {
 .hero {
   background-position: center;
   padding-top: 200px;
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-herobackgraund.img.jpg");
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/Img1xPKhero.jpg");
   background-repeat: no-repeat;
   padding-bottom: 210px;
   text-align: center;
@@ -415,12 +425,28 @@ header .container {
   padding: 10px 24px;
 }
 
+.hero__button:hover {
+  background: 10px 65px 10px 32px;
+  transform: translate(0, 0.25em);
+}
+
+.hero__button {
+  transform-style: preserve-3d;
+}
+
+.hero__button::before {
+  position: absolute;
+  content: "";
+  background: #2196f3;
+  border-radius: inherit;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(47, 48, 58, 0.4);
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
@@ -431,11 +457,12 @@ header .container {
 }
 
 .modal {
+  background-image: url("../../images/2eSd.gif");
   border-radius: 4px;
   position: absolute;
   width: 528px;
   height: 581px;
-  background-color: #ffffff;
+  background-color: white;
   top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -494,6 +521,7 @@ header .container {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 30px;
+  margin-top: 10px;
 }
 
 .modal-list__input:hover {
@@ -512,7 +540,7 @@ header .container {
 .modal-list__icon-person {
   position: absolute;
   left: 50px;
-  top: 30px;
+  top: 38px;
   color: rgb(33, 150, 243);
 }
 
@@ -531,7 +559,7 @@ header .container {
 
 .modal-list__icon-phone {
   position: absolute;
-  top: 30px;
+  top: 39px;
   left: 50px;
   color: rgb(33, 150, 243);
 }
@@ -551,7 +579,7 @@ header .container {
 
 .modal-list__icon-email {
   position: absolute;
-  top: 30px;
+  top: 38px;
   left: 50px;
   color: rgb(33, 150, 243);
 }
@@ -761,7 +789,6 @@ header .container {
 .team {
   padding-bottom: 94px;
   padding-top: 94px;
-  background-color: #f5f4fa;
 }
 
 .team__name {
@@ -944,8 +971,8 @@ header .container {
 }
 
 .regularclient__link {
-  color: #afb1b8;
-  border: solid 1px #afb1b8;
+  color: dimgrey;
+  border: solid 1px dimgrey;
   border-radius: 4px;
   height: 90px;
   width: 170px;
@@ -1158,6 +1185,72 @@ footer {
   border-color: rgb(33, 150, 243);
 }
 
+.footter__form {
+  text-align: center;
+}
+
+.footter__wrap {
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footter__wrap {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(47, 48, 58, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.backdrop.ishiden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.button {
+  border-radius: 4px;
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  background-color: #ffffff;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  position: relative;
+}
+
+.footer__button-cloze {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  color: #212121;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.button__icon-close:hover {
+  color: #2196f3;
+}
+
+.button__title {
+  padding-bottom: 18px;
+  padding-top: 40px;
+  letter-spacing: 3%;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
 .footter__subscribe-button {
   color: #ffffff;
   background-color: #2196f3;
@@ -1176,22 +1269,24 @@ footer {
   }
 }
 
+.footter__subscribe-button:hover {
+  background: 10px 65px 10px 32px;
+  transform: translate(0, 0.25em);
+}
+
+.footter__subscribe-button {
+  transform-style: preserve-3d;
+}
+
+.footter__subscribe-button::before {
+  position: absolute;
+  content: "";
+  background: #2196f3;
+  border-radius: inherit;
+}
+
 .footter__telegram {
   position: absolute;
-  top: 30%;
-  left: 80%;
-}
-
-.footter__form {
-  text-align: center;
-}
-
-.footter__wrap {
-  text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .footter__wrap {
-    display: flex;
-    align-items: center;
-  }
+  top: 28%;
+  left: 75%;
 }/*# sourceMappingURL=main.css.map */

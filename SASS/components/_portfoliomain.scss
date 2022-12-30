@@ -1,4 +1,4 @@
-.button {
+.portfolio-button {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -17,7 +17,7 @@
 .button__list {
   padding-top: 94px;
   padding-bottom: 50px;
-  justify-content: center;
+  justify-content: center;  
   @media screen and (min-width: 480px)  {
     display: flex;
   flex-wrap: wrap;
@@ -91,6 +91,7 @@
 
 .main__card-project{
   border: 1px solid #EEEEEE;
+  background-color: white;
   margin: 14px;
   @media screen and (min-width: 480px) {
     width: 450px;
